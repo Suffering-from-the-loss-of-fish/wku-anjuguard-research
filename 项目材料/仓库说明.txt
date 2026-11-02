@@ -17,6 +17,8 @@ git clone https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-resea
 
 仓库副本的复核表与失败案例已改为相对链接，保留整个目录结构；六段原视频需下载后查看。原桌面Word/Excel不改写。
 
-后续本机有新文件时需要提交并推送，GitHub不会自动实时同步。原作者从工作区根目录运行 python3 scripts/stage_repository.py --stage，再检查、git commit 和 git push。桌面材料需要先同步到工作区「项目材料」并维护相对链接。
+用户已授权后续项目文件完成检查后由助手直接同步GitHub，无需每次提醒或确认。每次交付结束时，先把新增或修改的桌面材料同步到工作区「项目材料」并维护相对链接，再检查、提交、推送并核对远端。现有每小时项目同步会补查已完成的漏传文件。
+
+索引脚本 python3 scripts/stage_repository.py --stage 不会复制桌面材料；不能整目录覆盖已有相对链接副本，不能夹带并行任务的未完成文件。原有大文件与隐私排除范围不变，新的超限交付使用Release附件。失败保留本地文件并告知用户；成功以远端核验为准。其他成员通过 git pull 获取更新。
 
 本次做了远端重新克隆和逐文件SHA256核对，以及Release附件SHA256核对；没有重跑科研实验。

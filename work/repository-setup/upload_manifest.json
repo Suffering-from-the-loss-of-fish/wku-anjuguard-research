@@ -3,7 +3,7 @@
   "scope": "Current project files; original downloads/runtime excluded; ZIP published separately as a Release asset.",
   "manifest_self_excluded_from_hashes": true,
   "included_files": 6076,
-  "included_bytes": 764418937,
+  "included_bytes": 764423702,
   "excluded_counts": {
     "local runtime/cache/git metadata": 10,
     "local symbolic link": 6,
@@ -21,8 +21,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1899,
-      "sha256": "7a03d7eac21a6bf45204c8e0bc4277dc772c781efaffbc944f1044238f83bbfb",
+      "bytes": 4082,
+      "sha256": "4dd743f2fd1ff9de24b679553750454379ca3dd547279b7af5f2b8b0ceda91cf",
       "mode": "100644"
     },
     {
@@ -1929,8 +1929,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4791,
-      "sha256": "a8fc070f4bb3b08f844116b0377491641869d2c7fbf73a4578e0c7a67d9676ee",
+      "bytes": 5738,
+      "sha256": "f56731112407d316cbdf9ca581e66067e3ad1e25c071f7d40668d1762ce30995",
       "mode": "100644"
     },
     {
@@ -34071,8 +34071,8 @@
     },
     {
       "path": "项目材料/05_项目总览.txt",
-      "bytes": 29358,
-      "sha256": "5eeddadc7b311fbdef8d971bcb53326320ee45dc3511f1af65a771ef6cb5200a",
+      "bytes": 30564,
+      "sha256": "830052cf2e9b8acf1ce454e4c814db76cf4d2886fdcf96e726cfd8aa9b4cf2ea",
       "mode": "100644"
     },
     {
@@ -34095,8 +34095,8 @@
     },
     {
       "path": "项目材料/仓库说明.txt",
-      "bytes": 1533,
-      "sha256": "bd19cf6464e82639c0a8e07b172ff6d936eb2102993708d7e9ffa881256b7743",
+      "bytes": 1962,
+      "sha256": "bfbaf9cb296278e4f526846d1ae60c8ded49d7274c09814fcc0a4cf1102fc475",
       "mode": "100644"
     },
     {
