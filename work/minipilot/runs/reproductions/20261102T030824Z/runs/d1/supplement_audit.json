@@ -1,0 +1,22 @@
+{
+  "type": "supplemental engineering and portability audit after initial holdout results",
+  "initial_run_preserved_in": "initial_run/",
+  "initial_predictions_sha256": "6c9b316e0474bae76e906709c209b26b0d0b3be37148f7c19e78e0a2e9681b71",
+  "initial_frozen_config_sha256": "7b4bdc3b5dc790396eb925a05e6a7d3c850c3c648408a539afc8462516789ee6",
+  "new_method": "A_fix",
+  "source_metadata_unchanged": true,
+  "B_C_parameters_or_predictions_changed": false,
+  "new_baseline_file_sha256": "f3c1144e0f0ea825b312a55b3a1cc26f2b9c934eb7f601fed9b59ebdac4b3871",
+  "current_code_sha256": {
+    "pilot/d1_baseline_source.py": "f3c1144e0f0ea825b312a55b3a1cc26f2b9c934eb7f601fed9b59ebdac4b3871",
+    "pilot/d1_coverage_analysis.py": "7e17c429254e983612e211094ee63d84a7fd6aaec4a66f8d3dffcfc37ea157c2",
+    "pilot/d1_data.py": "264a277478cbdbf8838688ae6431001230f07fd6712aadef0c5dfc194e0f39e1",
+    "pilot/d1_download.py": "b58dd8da3b7c583fafd3821e373b2aa7ea75021d14ba8b68fe65e779c0aece8d",
+    "pilot/d1_methods.py": "77b621baac3377aa2d7f3bc8e8556559358a4037d9419e15e541dc2981bbd558",
+    "pilot/d1_reproduce.py": "bc70f02d4941f81ea9156e67763c8b47ac6d51d949d668b193174bb5ce9d1c45",
+    "pilot/d1_run.py": "c323e6cb28c482a0aaea43b7b55a8bbbe514c4a0ec3f9f68698095ba67f66f44",
+    "pilot/d1_supplement.py": "cae2521161f045a999d5b656187f1ca5b1982e0ef2ff793f1b2291a190044abe"
+  },
+  "snapshot_provenance": "AnjuGuard df281277215a1b55fd74dc8e43203e3954081976; only two method bodies copied unchanged",
+  "limitations": "supplement is audit, not new holdout tuning; all research results remain exploratory"
+}

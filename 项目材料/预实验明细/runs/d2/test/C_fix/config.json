@@ -1,0 +1,8 @@
+{
+  "name": "C_fix",
+  "kind": "fixed_gate",
+  "interval_s": 6,
+  "hash_threshold": 6,
+  "resolution": 720,
+  "maximum_requests": 30
+}

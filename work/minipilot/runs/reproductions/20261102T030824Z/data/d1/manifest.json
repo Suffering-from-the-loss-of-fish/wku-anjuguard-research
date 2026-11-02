@@ -1,0 +1,69 @@
+{
+  "dataset": "UW RGB-D Scenes v1",
+  "evidence_type": "real_public_rgb_images_publisher_labels_not_independently_reverified",
+  "scene_groups_are_not_verified_independent_sites": true,
+  "timestamp_status": "not provided; no FPS-derived timestamps fabricated",
+  "bbox_conversion": "MATLAB one-based inclusive -> Python zero-based half-open; pending human review",
+  "sampling": "16 rounded equally spaced available frame positions per sequence, no model-based selection",
+  "pair_sampling": "seeded before feature inference; six same and six different per sequence; same-category negatives preferred",
+  "split_policy": "desk_1,kitchen_small_1 development; meeting_small_1,table_1 exploratory holdout; site independence unknown",
+  "scenes": [
+    {
+      "sequence_id": "desk_1",
+      "split": "development",
+      "rgb_frames_in_archive": 98,
+      "selected_frames": 16,
+      "observations": 29,
+      "selected_same_pairs": 6,
+      "selected_different_pairs": 6,
+      "same_category_negative_pool": 0,
+      "selected_same_category_negatives": 0,
+      "scene_group_independence": "unverified"
+    },
+    {
+      "sequence_id": "kitchen_small_1",
+      "split": "development",
+      "rgb_frames_in_archive": 180,
+      "selected_frames": 16,
+      "observations": 60,
+      "selected_same_pairs": 6,
+      "selected_different_pairs": 6,
+      "same_category_negative_pool": 119,
+      "selected_same_category_negatives": 6,
+      "scene_group_independence": "unverified"
+    },
+    {
+      "sequence_id": "meeting_small_1",
+      "split": "exploratory_holdout",
+      "rgb_frames_in_archive": 180,
+      "selected_frames": 16,
+      "observations": 134,
+      "selected_same_pairs": 6,
+      "selected_different_pairs": 6,
+      "same_category_negative_pool": 727,
+      "selected_same_category_negatives": 6,
+      "scene_group_independence": "unverified"
+    },
+    {
+      "sequence_id": "table_1",
+      "split": "exploratory_holdout",
+      "rgb_frames_in_archive": 125,
+      "selected_frames": 16,
+      "observations": 92,
+      "selected_same_pairs": 6,
+      "selected_different_pairs": 6,
+      "same_category_negative_pool": 234,
+      "selected_same_category_negatives": 6,
+      "scene_group_independence": "unverified"
+    }
+  ],
+  "algorithm_files": {
+    "data/d1/algorithm/frames.jsonl": "17e0359636fef3657c879e6d440f2d5c5ad3f5be3015314a50bdb4882e317e5f",
+    "data/d1/algorithm/observations.jsonl": "c7733f0fcdeb82467e9ab0fa9797b5891a3b59107e36d1cb13b090c0dd026d55",
+    "data/d1/algorithm/queries.jsonl": "36300fc61c83df47e563f7c2f8c5fa41c96e3723fdbd7171f30a70a4de2db410"
+  },
+  "evaluation_files": {
+    "data/d1/evaluation/labels.jsonl": "1025dd1b096e625331f18fe1bdc3b427e0c582cd631db86ac72f3156e7e83b9c",
+    "data/d1/evaluation/pairs.jsonl": "c7556d641166cef4bcb5720daadf02919d25ef050d4cd3cf4a0eb6b8c98ef0c2"
+  }
+}

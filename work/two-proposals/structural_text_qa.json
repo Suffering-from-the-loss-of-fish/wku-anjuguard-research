@@ -1,0 +1,65 @@
+{
+  "outputs": [
+    {
+      "direction": 1,
+      "file": "/Users/wangkai/Desktop/温肯科研/方向一申请书.docx",
+      "sha256": "6f7f5ce6d8ed0f835d2c81758eb9bd9d89ff4311a7a4729e9526c6519255d223",
+      "pages": 11,
+      "authored_paragraphs": 85,
+      "all_authored_paragraphs_in_pdf": true,
+      "all_original_prompts_and_run_formatting_preserved": true,
+      "page_geometry_preserved": true,
+      "unchanged_package_parts": 21,
+      "modified_parts": [
+        "word/document.xml",
+        "word/settings.xml"
+      ],
+      "settings_only_adds_updateFields": true,
+      "page_body_character_counts": [
+        743,
+        953,
+        1361,
+        658,
+        900,
+        927,
+        779,
+        781,
+        602,
+        757,
+        789
+      ]
+    },
+    {
+      "direction": 2,
+      "file": "/Users/wangkai/Desktop/温肯科研/方向二申请书.docx",
+      "sha256": "f0a77d0017543c54e8c0d59d804d6df13885dc181f0ea16a61368adda69d1414",
+      "pages": 10,
+      "authored_paragraphs": 77,
+      "all_authored_paragraphs_in_pdf": true,
+      "all_original_prompts_and_run_formatting_preserved": true,
+      "page_geometry_preserved": true,
+      "unchanged_package_parts": 21,
+      "modified_parts": [
+        "word/document.xml",
+        "word/settings.xml"
+      ],
+      "settings_only_adds_updateFields": true,
+      "page_body_character_counts": [
+        721,
+        1241,
+        854,
+        876,
+        834,
+        826,
+        702,
+        688,
+        524,
+        567
+      ]
+    }
+  ],
+  "reference_sha256": "c577c4e311f8ff371aa5b288e23efecf28c04f97ee28bfb7ed2412fcaf864095",
+  "reference_unchanged": true,
+  "existing_deliverables_unchanged": 9,
+  "scope": "Document creation and QA only. No model/device experiments or submission performed."
+}

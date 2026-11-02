@@ -1,0 +1,9 @@
+method,split,abstention_margin,is_frozen_operating_point,is_no_abstention_point,thresholds_from_development_only,analysis_role,pairs,automatic_count,automatic_fraction,decided_errors,decided_error_rate,false_merges,missed_merges,pending,failed,result_completeness
+B_frozen,development,0.0,False,True,True,posthoc_descriptive_no_parameter_selection,24,24,1.0,1,0.041666666666666664,0,1,0,0,1.0
+B_frozen,development,0.14446205496788023,True,False,True,posthoc_descriptive_no_parameter_selection,24,20,0.8333333333333334,0,0.0,0,0,4,0,1.0
+B_frozen,exploratory_holdout,0.0,False,True,True,posthoc_descriptive_no_parameter_selection,24,24,1.0,3,0.125,0,3,0,0,1.0
+B_frozen,exploratory_holdout,0.14446205496788023,True,False,True,posthoc_descriptive_no_parameter_selection,24,18,0.75,3,0.16666666666666666,0,3,6,0,1.0
+C_relation_quality,development,0.0,False,True,True,posthoc_descriptive_no_parameter_selection,24,24,1.0,1,0.041666666666666664,0,1,0,0,1.0
+C_relation_quality,development,0.06743576575057296,True,False,True,posthoc_descriptive_no_parameter_selection,24,20,0.8333333333333334,0,0.0,0,0,4,0,1.0
+C_relation_quality,exploratory_holdout,0.0,False,True,True,posthoc_descriptive_no_parameter_selection,24,24,1.0,3,0.125,0,3,0,0,1.0
+C_relation_quality,exploratory_holdout,0.06743576575057296,True,False,True,posthoc_descriptive_no_parameter_selection,24,19,0.7916666666666666,2,0.10526315789473684,0,2,5,0,1.0

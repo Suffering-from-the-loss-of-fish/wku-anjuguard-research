@@ -1,0 +1,28 @@
+{
+  "policy": "C_fix",
+  "config": {
+    "name": "C_fix",
+    "kind": "fixed_gate",
+    "interval_s": 6,
+    "hash_threshold": 6,
+    "resolution": 720,
+    "maximum_requests": 30
+  },
+  "frame_count": 20,
+  "requests": 2,
+  "usable_responses": 0,
+  "status_counts": {
+    "ok": 0,
+    "invalid": 2,
+    "error": 0
+  },
+  "actual_http_p50_s": 2.003108312492259,
+  "actual_http_p95_s": 2.3306907062535176,
+  "usable_e2e_conditional_p50_s": null,
+  "usable_e2e_conditional_p95_s": null,
+  "actual_http_request_body_bytes": 174822,
+  "wall_clock_execution_s": 4.209687749971636,
+  "api_cost": 0,
+  "evidence_status": "independent_uncached_actual_http_technical_repeat_on_dev_prefix",
+  "warning": "Few requests; descriptive timing only. Not original-speed live replay, no quality or cost-savings inference."
+}

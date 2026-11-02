@@ -1,0 +1,22 @@
+方向二公开真实数据说明
+
+本目录来源为 Apple ARKitScenes 官方公开真实室内采集。6 个原始 MOV、6 个 3DOD 稀疏数据包和原始三维标注均保留，下载来源、字节数、SHA256 和失败状态在 runs/d2_data/downloads.jsonl。许可保存在 LICENSE_ARKitScenes.txt，来源登记在 docs/data_sources.json。
+
+开发：官方 Training，visit 369709，video 40777060 和 40777063。
+留出：官方 Validation，visit 381649（41069042 和 41069043）、visit 381875（41159529 和 41159530）。
+以上是 3 个公开 visit 分组。官方开发/验证划分按 venue 隔离；公开元数据没有明确 household 字段，不能额外断言 3 个 visit 一定是 3 个独立家庭。重复扫描不等于重新布置。
+
+frames.jsonl 是调度器唯一媒体清单，483 个原始时间顺序的约 1Hz RGB 帧。图像来自 MOV 第一个视频流 0:v:0（1920×1440），缩放长边 1280，再按原 MOV Display Matrix 旋正。没有把第二摄像头当作低清版本，也没有把低清放大冒充高清。pts_s 是每段从第一个实际来源 PTS 归零后的秒数，source_pts_s、source_frame_index、raw_frame_path 和哈希保留真实来源。不填造绝对拍摄时间。
+
+proxy_events.jsonl 和 proxy_observations.jsonl 仅用于探索性评价，绝不输入调度策略。它们是自动家具可见性草稿，不是人工事件真值。先以真实 RGB 相似性匹配 1Hz 高分辨率帧和官方稀疏 RGB，稳健估计时钟偏移；再把有效测得的深度点变换至世界坐标，保留落在官方 obbAligned 三维框内的点，得到归一化 xyxy 参考框。所有参数保存在 proxy_protocol.json；这些参数在留出参考生成前冻结，没有按模型输出调整。
+
+任务类别固定 chair/table/sofa/cabinet/bed/shelf，静态别名映射在 category_map.json，未映射类别（包括 stool）排除。每个事件开始是首个达到自动深度支持条件的采样帧，结束是最后支持帧加一个采样间隔，最多到视频结束。它不能当成首次足够可判定时刻；该字段保持 null。短暂失去深度支持会切分事件，不自动补齐。原始画面中的家具保持静止，状态变化仅为相机运动造成的可见性变化。
+
+独立复核：打开 runs/d2_data/event_review.html，对照原视频、实际时间点及框。由两名真实复核人员分别在 event_review.csv 填写类别、开始/结束、首次足够可判定时刻和关键类别；分歧交第三人裁决。未完成前所有 review_status 为 pending，不能报告已证明的真实风险召回或质量非劣效。助手几何目视检查只记录在 visual_qa.json，不算独立人工复核。
+
+可复现命令（在 work/minipilot 运行）：
+.venv/bin/python -m pilot.d2_data download --range-workers 8
+.venv/bin/python -m pilot.d2_data unpack
+.venv/bin/python -m pilot.d2_data extract
+.venv/bin/python -m pilot.d2_data proxy
+.venv/bin/python -m unittest discover -s tests -p test_d2_data.py -v

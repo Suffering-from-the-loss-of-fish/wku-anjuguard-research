@@ -1,0 +1,115 @@
+{
+  "protocol": {
+    "protocol_version": "d1-public-rgb-v1",
+    "random_seed": 1101,
+    "encoder": "facebook/dinov2-small",
+    "encoder_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "device": "cpu",
+    "dtype": "float32",
+    "torch_threads": 4,
+    "batch_size": 8,
+    "development_sequences": [
+      "desk_1",
+      "kitchen_small_1"
+    ],
+    "exploratory_holdout_sequences": [
+      "meeting_small_1",
+      "table_1"
+    ],
+    "automatic_decision_target": 0.8,
+    "dummy_threshold_grid": [
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "relation_weight": 0.15,
+    "relation_method": "ORB outside all candidate boxes, unique matches, verified approximate planar background homography; otherwise unavailable",
+    "quality_method": "laplacian sharpness, crop minimum side, exposure; used to discount decision margin",
+    "human_independent_review_completed": false,
+    "site_independence_verified": false,
+    "baseline_A_metadata": "current photo upload convention: source_id absent and capture time absent, never fabricated",
+    "baseline_A_fix_metadata": "separately labelled public-sequence adapter using actual archive sequence_id, no fabricated time; one-to-one IoU 0.35",
+    "bbox_source": "publisher 3D annotations projected into each RGB frame; coordinate conversion pending independent review",
+    "evaluation_truth_inputs_allowed_for_prediction": false,
+    "paid_api_budget": 0
+  },
+  "parameters": {
+    "B_frozen": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.14446205496788023,
+      "development_binary_errors": 1,
+      "automatic_target": 0.8,
+      "development_automatic_count": 20,
+      "development_pairs": 24
+    },
+    "C_relation_quality": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.06743576575057296,
+      "development_binary_errors": 1,
+      "automatic_target": 0.8,
+      "development_automatic_count": 20,
+      "development_pairs": 24
+    },
+    "C_no_relation": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.06743576575057296,
+      "development_binary_errors": 1,
+      "automatic_target": 0.8,
+      "development_automatic_count": 20,
+      "development_pairs": 24
+    },
+    "B_binary": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.0,
+      "development_binary_errors": 1,
+      "automatic_target": 0.8,
+      "development_automatic_count": 20,
+      "development_pairs": 24
+    },
+    "C_no_abstention": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.0,
+      "development_binary_errors": 1,
+      "automatic_target": 0.8,
+      "development_automatic_count": 20,
+      "development_pairs": 24
+    },
+    "A_original": {
+      "dummy_threshold": 0.0,
+      "abstention_margin": 0.0
+    },
+    "A_fix_sequence_adapter": {
+      "dummy_threshold": 0.35,
+      "abstention_margin": 0.0
+    }
+  },
+  "source_sha256": "f3c1144e0f0ea825b312a55b3a1cc26f2b9c934eb7f601fed9b59ebdac4b3871",
+  "data_manifest_sha256": "8d8405f70f15fe7deb74b7844e650b6cf61246f8c08aef0fe892fb483ebb476b",
+  "pair_list_sha256": "c7556d641166cef4bcb5720daadf02919d25ef050d4cd3cf4a0eb6b8c98ef0c2",
+  "model_files_sha256": {
+    "config.json": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+    "model.safetensors": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+    "preprocessor_config.json": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+  },
+  "code_sha256": {
+    "pilot/d1_baseline_source.py": "f3c1144e0f0ea825b312a55b3a1cc26f2b9c934eb7f601fed9b59ebdac4b3871",
+    "pilot/d1_data.py": "264a277478cbdbf8838688ae6431001230f07fd6712aadef0c5dfc194e0f39e1",
+    "pilot/d1_download.py": "b58dd8da3b7c583fafd3821e373b2aa7ea75021d14ba8b68fe65e779c0aece8d",
+    "pilot/d1_methods.py": "77b621baac3377aa2d7f3bc8e8556559358a4037d9419e15e541dc2981bbd558",
+    "pilot/d1_reproduce.py": "bc70f02d4941f81ea9156e67763c8b47ac6d51d949d668b193174bb5ce9d1c45",
+    "pilot/d1_run.py": "c323e6cb28c482a0aaea43b7b55a8bbbe514c4a0ec3f9f68698095ba67f66f44",
+    "pilot/d1_supplement.py": "cae2521161f045a999d5b656187f1ca5b1982e0ef2ff793f1b2291a190044abe"
+  },
+  "freeze_stage": "after development calibration, before holdout prediction/evaluation",
+  "holdout_labels_used_for_parameter_selection": false
+}

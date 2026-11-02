@@ -1,0 +1,11 @@
+{
+  "status": "aligned",
+  "method": "median RGB matched timestamp offset with robust inlier gate",
+  "offset_s": 2799.023256,
+  "inlier_count": 98,
+  "frame_count": 99,
+  "median_abs_residual_s": 0.0002559999998084095,
+  "median_rgb_similarity": 0.9963458066824707,
+  "valid_matches": 98,
+  "independently_reviewed": false
+}

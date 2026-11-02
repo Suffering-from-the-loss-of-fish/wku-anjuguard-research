@@ -1,0 +1,217 @@
+{
+  "captured_utc": "2026-11-02T03:24:51.913002+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "executable": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/.venv/bin/python",
+  "platform": "macOS-15.8.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "macos": "15.8.1",
+  "experiment_git": {
+    "exit_code": 0,
+    "output": "b0abccccc5bc2738626db0243fefe39e7109baad"
+  },
+  "experiment_worktree": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "files": [
+    {
+      "path": "pilot/__init__.py",
+      "bytes": 78,
+      "sha256": "011514e1af72385d3acb29df6d77bde7481c97541e8be0aaca719f9c60f34445"
+    },
+    {
+      "path": "pilot/build_documents.py",
+      "bytes": 19945,
+      "sha256": "a8c8baeb397413383c4081c79dc5be12f0f37558523597e70716e932448eb368"
+    },
+    {
+      "path": "pilot/build_failures.py",
+      "bytes": 5460,
+      "sha256": "d1cc6b87c6133e05a25cd3a33016ea10673d387336b7bd21d613b56e9e0d0c97"
+    },
+    {
+      "path": "pilot/d1_baseline_source.py",
+      "bytes": 2862,
+      "sha256": "f3c1144e0f0ea825b312a55b3a1cc26f2b9c934eb7f601fed9b59ebdac4b3871"
+    },
+    {
+      "path": "pilot/d1_coverage_analysis.py",
+      "bytes": 10957,
+      "sha256": "7e17c429254e983612e211094ee63d84a7fd6aaec4a66f8d3dffcfc37ea157c2"
+    },
+    {
+      "path": "pilot/d1_data.py",
+      "bytes": 6807,
+      "sha256": "264a277478cbdbf8838688ae6431001230f07fd6712aadef0c5dfc194e0f39e1"
+    },
+    {
+      "path": "pilot/d1_download.py",
+      "bytes": 2824,
+      "sha256": "b58dd8da3b7c583fafd3821e373b2aa7ea75021d14ba8b68fe65e779c0aece8d"
+    },
+    {
+      "path": "pilot/d1_methods.py",
+      "bytes": 6710,
+      "sha256": "77b621baac3377aa2d7f3bc8e8556559358a4037d9419e15e541dc2981bbd558"
+    },
+    {
+      "path": "pilot/d1_reproduce.py",
+      "bytes": 1234,
+      "sha256": "bc70f02d4941f81ea9156e67763c8b47ac6d51d949d668b193174bb5ce9d1c45"
+    },
+    {
+      "path": "pilot/d1_run.py",
+      "bytes": 19043,
+      "sha256": "c323e6cb28c482a0aaea43b7b55a8bbbe514c4a0ec3f9f68698095ba67f66f44"
+    },
+    {
+      "path": "pilot/d1_supplement.py",
+      "bytes": 5719,
+      "sha256": "cae2521161f045a999d5b656187f1ca5b1982e0ef2ff793f1b2291a190044abe"
+    },
+    {
+      "path": "pilot/d2.py",
+      "bytes": 35971,
+      "sha256": "65371a72578b6aaecb9b57dd44d3184b51358f2df2b96720da66bf574225ce35"
+    },
+    {
+      "path": "pilot/d2_audit.py",
+      "bytes": 4196,
+      "sha256": "dfbda8218328c62c3e10561de4c4d657eaa8523b06d2a787c4acbe711d3c260a"
+    },
+    {
+      "path": "pilot/d2_data.py",
+      "bytes": 32591,
+      "sha256": "50997cf0311ae03296f8746b457f27d566f5237c99927b6a6b7336663c8e986d"
+    },
+    {
+      "path": "pilot/d2_ledger.py",
+      "bytes": 2076,
+      "sha256": "78b8c2a0fd5765580ea5000eecb660f00a5e1bab5c96b3a8b6e69348d3b192a5"
+    },
+    {
+      "path": "pilot/d2_probe.py",
+      "bytes": 3697,
+      "sha256": "6dbf4dc48d4406ffcce2834b91ac488cc9516d899b474793c6a92eb1866a67bc"
+    },
+    {
+      "path": "pilot/d2_reanalyze.py",
+      "bytes": 2273,
+      "sha256": "c6a63198a9dfb5500e34cdd5e3d55059e44f745d2d5718a56cbffdfd70f34a41"
+    },
+    {
+      "path": "pilot/download_model.py",
+      "bytes": 412,
+      "sha256": "8866433e9b273c00904b95db1b87c5784e4f59ce91e38c2e4273fedc96836f5b"
+    },
+    {
+      "path": "pilot/model_server.py",
+      "bytes": 10360,
+      "sha256": "43c54e0d8dff8bca2242918db44996d218389c121af62268508a6305fa99ea8b"
+    },
+    {
+      "path": "pilot/package_delivery.py",
+      "bytes": 2383,
+      "sha256": "d8e3de03da657d24f5fb5e1ace6ab7dfeea44b8200e6f448aeaca3ebafae9648"
+    },
+    {
+      "path": "pilot/provenance.py",
+      "bytes": 1975,
+      "sha256": "5dde6ed53cde51604789ccfa2d5b09bfa511baa072da1cef95935a7b4c0f52bb"
+    },
+    {
+      "path": "pilot/recompute.py",
+      "bytes": 3081,
+      "sha256": "f17cb9f1ab6b5eee8197991f46ed91fc045c5bfce3377add8945cdc189240a48"
+    },
+    {
+      "path": "pilot/run_real.py",
+      "bytes": 5438,
+      "sha256": "3279c723fe7397c2f3c615280de19f4f14c4fa4221aaa7bf639765246405e11f"
+    },
+    {
+      "path": "tests/test_d1_audit.py",
+      "bytes": 5590,
+      "sha256": "b26a8ec14fb79dce32d84dbcae4638f8020738c16ef1237280a3dc471abde181"
+    },
+    {
+      "path": "tests/test_d1_methods.py",
+      "bytes": 6383,
+      "sha256": "0f13e05a363f21f01d9f357e751e5cf3b763da2724f9eeba4febc87cd7b81527"
+    },
+    {
+      "path": "tests/test_d2.py",
+      "bytes": 8447,
+      "sha256": "2771cf8f74552fc770f1924a729cc0b713921fb3a0512b9a67e4766b2b82ffdb"
+    },
+    {
+      "path": "tests/test_d2_data.py",
+      "bytes": 4434,
+      "sha256": "92e5903ecdfdac480dbadfbe84c2c3a78b5be5ade2068dc6edb810ed99140180"
+    },
+    {
+      "path": "tests/test_model_server.py",
+      "bytes": 979,
+      "sha256": "2017d446428b786da6e060279985db29b50645f017a1d83c7f4c24e3d7307ecc"
+    },
+    {
+      "path": "tests/test_recompute.py",
+      "bytes": 445,
+      "sha256": "56ba0d7e1d8d155e4e077a36b1bd1b05fb638ba468fbb7f0bef5b938d5f74e54"
+    },
+    {
+      "path": "configs/d1_protocol.json",
+      "bytes": 1358,
+      "sha256": "121b9d2de74131902d9ab8a8ce73b3d4fcaf0d9006326c572eac1001df086c2e"
+    },
+    {
+      "path": "configs/d2_frozen.json",
+      "bytes": 2811,
+      "sha256": "420bbce44d9a9d71e62c54aa556c83536d4262f79a03ab2d167b6395d3d61a7f"
+    },
+    {
+      "path": "configs/d2_model_contract.json",
+      "bytes": 1595,
+      "sha256": "d0dca9e67c723272f3bac9be1d89322769f94c75c046bca8cf1e3a807583691b"
+    },
+    {
+      "path": "configs/d2_protocol.json",
+      "bytes": 2052,
+      "sha256": "f1234d01d9d07f0d11426ed08e651195d2c3c06e19a72e49ef23428bd94d1a64"
+    },
+    {
+      "path": "models/dinov2-small/model.safetensors",
+      "bytes": 88249960,
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1"
+    },
+    {
+      "path": "models/qwen2.5-vl-3b-4bit/model.safetensors",
+      "bytes": 3073720461,
+      "sha256": "636982419c940321ac0f7793dc9dc3575a4ee4843a6b167b2e8c3d3cd25dacf4"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 1579,
+      "sha256": "b9a14a86fb37c6176204968f37056f33a0ddd12e9bb3a386f0ac801aca8e87b8"
+    },
+    {
+      "path": "run.sh",
+      "bytes": 1418,
+      "sha256": "ab999272e34799be30f20d1f8f42bc1b0f2087205a829a31131f1056f09ec2bb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8873,
+      "sha256": "c48ecaa113533c2dd5ebe5bc2ed8b6417842e041373c520cead04f9940b4a792"
+    }
+  ],
+  "paid_api_spending_authorized": 0,
+  "currency": "USD",
+  "measurement_boundaries": {
+    "independent_human_review": "not completed",
+    "on_phone_measurement": "not performed",
+    "energy": "not measured",
+    "cloud_api": "not used",
+    "dataset_licenses": "noncommercial research; see ATTRIBUTION.txt"
+  }
+}

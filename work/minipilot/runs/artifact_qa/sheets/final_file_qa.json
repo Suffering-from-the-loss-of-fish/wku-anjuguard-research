@@ -1,0 +1,53 @@
+{
+  "workbooks": [
+    {
+      "file": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/delivery/预实验结果.xlsx",
+      "size": 95408,
+      "sha256": "57c3de0de54466be0eb90692619d1ccaad3b27aa6a71c7ff846bfc31f85f58b0",
+      "sheets": [
+        "比较结果",
+        "方向一配对",
+        "方向二事件",
+        "方向二请求",
+        "场景来源",
+        "方法指标"
+      ],
+      "formula_error_cells": 0,
+      "native_hyperlinks": 0,
+      "link_targets_verified": true,
+      "human_input_fields_blank": "not_applicable",
+      "native_Excel_interaction_verified": false
+    },
+    {
+      "file": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/delivery/补充复核.xlsx",
+      "size": 76342,
+      "sha256": "597d9fc3fbebe040ee97d0088b7d4b2041d82a765ccb0f69d78db795946c2a2a",
+      "sheets": [
+        "对象复核",
+        "事件复核",
+        "最小采集"
+      ],
+      "formula_error_cells": 0,
+      "native_hyperlinks": 596,
+      "link_targets_verified": true,
+      "human_input_fields_blank": true,
+      "native_Excel_interaction_verified": false
+    }
+  ],
+  "all_9_sheets_rendered_and_visually_checked": true,
+  "render_views": 16,
+  "consistency_update": {
+    "capture_photo_names": "S01_G01_P01.jpg",
+    "capture_video_names": "S01_V01.mov",
+    "critical_category_columns": "AD:AF",
+    "critical_fields_blank": true,
+    "prior_status_formula_unchanged": true,
+    "result_summary_unchanged": true,
+    "changed_and_added_views_visually_checked": true
+  },
+  "notes": [
+    "Artifact tool authored and recalculated all workbook cells.",
+    "Standard OOXML hyperlinks appended because HYPERLINK is unsupported by the bundled evaluator.",
+    "No human labels were filled. Native Excel clicking was not tested."
+  ]
+}

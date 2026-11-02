@@ -1,0 +1,51 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 1440,
+        "avg_frame_rate": "99170400/1652159",
+        "time_base": "1/16800",
+        "start_time": "0.000000",
+        "tags": {
+          "creation_time": "2020-10-22T14:54:32.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "HEVC"
+        }
+      }
+    ],
+    "format": {
+      "start_time": "0.000000",
+      "duration": "98.407738",
+      "size": "863031585"
+    }
+  },
+  "extraction_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "info",
+    "-y",
+    "-noautorotate",
+    "-i",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/data/d2/raw/41069043/41069043.mov",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "select=eq(n\\,0)+eq(n\\,61)+eq(n\\,121)+eq(n\\,181)+eq(n\\,241)+eq(n\\,301)+eq(n\\,361)+eq(n\\,421)+eq(n\\,481)+eq(n\\,541)+eq(n\\,601)+eq(n\\,661)+eq(n\\,721)+eq(n\\,781)+eq(n\\,841)+eq(n\\,901)+eq(n\\,961)+eq(n\\,1021)+eq(n\\,1081)+eq(n\\,1141)+eq(n\\,1201)+eq(n\\,1261)+eq(n\\,1321)+eq(n\\,1381)+eq(n\\,1441)+eq(n\\,1501)+eq(n\\,1561)+eq(n\\,1621)+eq(n\\,1681)+eq(n\\,1741)+eq(n\\,1801)+eq(n\\,1861)+eq(n\\,1921)+eq(n\\,1981)+eq(n\\,2041)+eq(n\\,2101)+eq(n\\,2161)+eq(n\\,2221)+eq(n\\,2281)+eq(n\\,2341)+eq(n\\,2401)+eq(n\\,2462)+eq(n\\,2522)+eq(n\\,2582)+eq(n\\,2642)+eq(n\\,2702)+eq(n\\,2762)+eq(n\\,2822)+eq(n\\,2882)+eq(n\\,2942)+eq(n\\,3002)+eq(n\\,3062)+eq(n\\,3122)+eq(n\\,3182)+eq(n\\,3242)+eq(n\\,3302)+eq(n\\,3362)+eq(n\\,3422)+eq(n\\,3482)+eq(n\\,3542)+eq(n\\,3602)+eq(n\\,3662)+eq(n\\,3722)+eq(n\\,3782)+eq(n\\,3842)+eq(n\\,3902)+eq(n\\,3962)+eq(n\\,4022)+eq(n\\,4082)+eq(n\\,4142)+eq(n\\,4202)+eq(n\\,4262)+eq(n\\,4322)+eq(n\\,4382)+eq(n\\,4442)+eq(n\\,4502)+eq(n\\,4562)+eq(n\\,4622)+eq(n\\,4682)+eq(n\\,4742)+eq(n\\,4802)+eq(n\\,4863)+eq(n\\,4923)+eq(n\\,4983)+eq(n\\,5043)+eq(n\\,5103)+eq(n\\,5163)+eq(n\\,5223)+eq(n\\,5283)+eq(n\\,5343)+eq(n\\,5403)+eq(n\\,5463)+eq(n\\,5523)+eq(n\\,5583)+eq(n\\,5643)+eq(n\\,5703)+eq(n\\,5763)+eq(n\\,5823)+eq(n\\,5883),scale=1280:-2,showinfo",
+    "-fps_mode",
+    "passthrough",
+    "-q:v",
+    "2",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/data/d2/frames/41069043/%06d.jpg"
+  ],
+  "source_sha256": "e3ba74aa0a178235c43965316bef7535307b41de25143feee8f0d281456c805d",
+  "sample_rule": "first source frame at or after each integral second",
+  "origin_source_pts_s": 0.0,
+  "frame_count": 99,
+  "extract_wall_s": 7.502756917034276
+}

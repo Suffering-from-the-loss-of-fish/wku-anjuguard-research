@@ -1,0 +1,80 @@
+{
+  "dataset": "UW RGB-D Scenes v1",
+  "license": "non-commercial research/educational use only",
+  "model": "facebook/dinov2-small",
+  "model_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "files": [
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/desk_1.tar",
+      "path": "data/d1/raw/desk_1.tar",
+      "bytes": 46678667,
+      "sha256": "c8b79ab544341cda92c0511b3438c3dbd9777648601a3d8480f914e9d2f99011",
+      "download_seconds": 11.800620079040527,
+      "attempts": 1
+    },
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/kitchen_small_1.tar",
+      "path": "data/d1/raw/kitchen_small_1.tar",
+      "bytes": 98060444,
+      "sha256": "e1d1fe4cf6220c5fd8e4b63447bf6911f4e83f17cbd77ef3bc0ab62949eb3cbe",
+      "download_seconds": 15.797841310501099,
+      "attempts": 1
+    },
+    {
+      "url": "https://huggingface.co/facebook/dinov2-small/resolve/ed25f3a31f01632728cabb09d1542f84ab7b0056/config.json",
+      "path": "models/dinov2-small/config.json",
+      "bytes": 547,
+      "sha256": "1809f83e3bdb1609a501a610ad4a742f4fd8ae44d72ca4aa0df52d1f2ac8628d",
+      "download_seconds": 0.15650677680969238,
+      "attempts": 1
+    },
+    {
+      "url": "https://huggingface.co/facebook/dinov2-small/resolve/ed25f3a31f01632728cabb09d1542f84ab7b0056/preprocessor_config.json",
+      "path": "models/dinov2-small/preprocessor_config.json",
+      "bytes": 436,
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+      "download_seconds": 0.12028384208679199,
+      "attempts": 1
+    },
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/meeting_small_1.tar",
+      "path": "data/d1/raw/meeting_small_1.tar",
+      "bytes": 84657734,
+      "sha256": "38bb9b34849d40ea32289b316e837d79172db9bbbbb88dee5f8c96d43e3c0ace",
+      "download_seconds": 20.4846830368042,
+      "attempts": 1
+    },
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/README.txt",
+      "path": "data/d1/raw/README_source.txt",
+      "bytes": 1795,
+      "sha256": "c0533c97ef7ac3a50c7ed914f60919704a0f0e8edd0d05da73a221fa62c7d81c",
+      "download_seconds": 0.3589348793029785,
+      "attempts": 1
+    },
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset.html",
+      "path": "data/d1/raw/license_source.html",
+      "bytes": 6276,
+      "sha256": "628f1c0ebca817e7177f4ab6b48f537edf198a246626e7566a53d541d7c2348e",
+      "download_seconds": 0.38730907440185547,
+      "attempts": 1
+    },
+    {
+      "url": "https://huggingface.co/facebook/dinov2-small/resolve/ed25f3a31f01632728cabb09d1542f84ab7b0056/model.safetensors",
+      "path": "models/dinov2-small/model.safetensors",
+      "bytes": 88249960,
+      "sha256": "ae1e99fcefd534ed978cdeb8326f08030c96e28b7a81ffcbc98a857c84d14be1",
+      "download_seconds": 7.544668912887573,
+      "attempts": 1
+    },
+    {
+      "url": "https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/table_1.tar",
+      "path": "data/d1/raw/table_1.tar",
+      "bytes": 57975932,
+      "sha256": "51ac74244a3737a2eecf17a9eb339b95ccb597d5a48b239249c78ce7cf02904c",
+      "download_seconds": 16.597102880477905,
+      "attempts": 1
+    }
+  ]
+}

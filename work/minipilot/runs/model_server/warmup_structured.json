@@ -1,0 +1,42 @@
+{
+  "request_id": "warmup_uw_dev_002_structured_pixels",
+  "image_path": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/runs/model_server/received_images/b52d3bd6df1b2158c6d5f34136dc9e36821b73c492dfb89f318ab2b12d6765c7.jpg",
+  "model_id": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+  "model_revision": "46d4cf06a06ffc1a766c214174f9cbed2f45bcab",
+  "prompt_sha256": "a744c245a0f907376287ebbc3e2663f4a86d6442823c2b4810ee731ef4a658a0",
+  "started_utc": "2026-11-02T02:44:58.134799+00:00",
+  "experiment_kind": "real_local_model_http",
+  "api_cost": 0,
+  "image_sha256": "b52d3bd6df1b2158c6d5f34136dc9e36821b73c492dfb89f318ab2b12d6765c7",
+  "image_bytes": 46178,
+  "cache_hit": false,
+  "actual_prompt_sha256": "e57cba1baa4573ebbe062d48277659e6045a692103f2f9dc2d9fc10fc1e84d06",
+  "raw_text": "{\"quality_usable\": true, \"objects\": [{\"category\": \"table\", \"bbox\": [0, 101, 640, 476]}]}",
+  "usage": {
+    "prompt_tokens": 648,
+    "generation_tokens": 39,
+    "total_tokens": 687,
+    "cached_tokens": 0
+  },
+  "finish_reason": "stop",
+  "peak_memory_gb": 3.824430222,
+  "result": {
+    "quality_usable": true,
+    "objects": [
+      {
+        "category": "table",
+        "bbox": [
+          0.0,
+          0.21041666666666667,
+          1.0,
+          0.9916666666666667
+        ]
+      }
+    ]
+  },
+  "status": "ok",
+  "latency_ms": 3044.44654204417,
+  "finished_utc": "2026-11-02T02:45:01.179232+00:00",
+  "http_elapsed_s": 3.049645208986476,
+  "request_body_bytes": 61672
+}

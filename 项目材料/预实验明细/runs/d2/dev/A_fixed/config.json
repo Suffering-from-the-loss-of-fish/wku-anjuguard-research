@@ -1,0 +1,7 @@
+{
+  "name": "A_fixed",
+  "kind": "fixed",
+  "interval_s": 6,
+  "resolution": 720,
+  "maximum_requests": 30
+}

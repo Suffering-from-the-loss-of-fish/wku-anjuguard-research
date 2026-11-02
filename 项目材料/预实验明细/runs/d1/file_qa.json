@@ -1,0 +1,10 @@
+{
+  "html_exists": true,
+  "html_parsed": true,
+  "articles": 48,
+  "image_links": 96,
+  "unique_images": 53,
+  "image_links_exist_and_decode": true,
+  "browser_visual_QA": "blocked by browser file protocol policy; not bypassed",
+  "reviewer_status": "no independent human review performed"
+}

@@ -1,0 +1,54 @@
+AnjuGuard 两方向最小预实验
+
+现有应用来源
+AnjuGuard https://github.com/banshanbans/AnjuGuard
+固定参考提交 df281277215a1b55fd74dc8e43203e3954081976
+基于 RASSAR 二次开发。原方法快照与H5门控/dHash策略沿用范围见源码及报告。
+MIT License
+Copyright (c) 2024 UW Makeability Lab
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+真实公开数据
+UW RGB-D Scenes v1
+Kevin Lai, Liefeng Bo, Xiaofeng Ren, Dieter Fox.
+A Large-Scale Hierarchical Multi-View RGB-D Object Dataset. ICRA 2011.
+https://rgbd-dataset.cs.washington.edu/dataset/rgbd-scenes/README.txt
+https://rgbd-dataset.cs.washington.edu/dataset.html
+仅非商业科研/教育用途。发布方标签不等于本轮独立人工复核。
+
+Apple ARKitScenes
+https://github.com/apple-aiml-research/ARKitScenes
+https://github.com/apple-aiml-research/ARKitScenes/blob/main/LICENSE
+原许可保存于 data/d2/LICENSE_ARKitScenes.txt。原始数据仅按许可用于研究。
+自动派生可见性事件不是人工安全事件标签。
+
+冻结模型
+DINOv2 ViT-S/14 facebook/dinov2-small
+https://github.com/facebookresearch/dinov2
+revision ed25f3a31f01632728cabb09d1542f84ab7b0056
+
+Qwen2.5-VL-3B-Instruct 的 MLX 4-bit 转换版本
+https://huggingface.co/mlx-community/Qwen2.5-VL-3B-Instruct-4bit
+revision 46d4cf06a06ffc1a766c214174f9cbed2f45bcab
+Qwen RESEARCH LICENSE AGREEMENT，仅用于本轮非商业研究与评价。
+https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct/blob/main/LICENSE
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT,
+Copyright (c) Alibaba Cloud. All Rights Reserved.
+MLX-VLM code: https://github.com/Blaizzy/mlx-vlm (MIT).
+
+这份代码和研究数据没有发布到公共网站，也没有接入生产App。
+数据和模型的许可独立于实验代码，不因本地打包而获得商业使用或公开再发布授权。

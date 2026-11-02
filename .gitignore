@@ -1,0 +1,23 @@
+# Local runtime, credentials, and Git metadata are never part of the shared snapshot.
+.DS_Store
+**/.DS_Store
+**/.git/
+**/node_modules
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/fontcache/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+work/sync/
+work/minipilot/models/
+**/data/d1/raw/
+**/data/d2/raw/
+**/data/d2/sparse/
+**/预实验代码.zip
+work/repository-setup/private/
+

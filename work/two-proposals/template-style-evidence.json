@@ -1,0 +1,88 @@
+{
+  "input": "/Users/wangkai/Documents/ChatGPT/\u6e29\u80af\u79d1\u7814/work/two-proposals/\u5b66\u6821\u539f\u6a21\u677f.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 41,
+  "direct_paragraph_formatting_paragraphs": 32,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "Research Proposal for ",
+      "style": "Normal"
+    },
+    {
+      "para_index": 2,
+      "text": "Student Partnering with Faculty/Staff Research Programs",
+      "style": "Normal"
+    },
+    {
+      "para_index": 8,
+      "text": "Part I",
+      "style": "Normal"
+    },
+    {
+      "para_index": 24,
+      "text": "Part II",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Research Proposal for ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "Student Partnering with Faculty/Staff Research Programs",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "\uff08Natural Science\uff09",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "Title of the proposed research project ",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Research Proposal for ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Student Partnering with Faculty/Staff Research Programs",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\uff08",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "Natural",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": " Science",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

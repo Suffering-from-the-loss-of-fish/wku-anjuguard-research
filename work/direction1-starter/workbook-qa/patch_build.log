@@ -1,0 +1,12 @@
+Inspect result written to file: /Users/wangkai/Desktop/温肯科研/08_采集标注表.xlsx.inspect.ndjson
+{
+  "output": "/Users/wangkai/Desktop/温肯科研/08_采集标注表.xlsx",
+  "cases": 5,
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "previews": [
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/说明下.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/照片.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/照片元数据.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/目标左.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mapping": {
+    "chair": "chair",
+    "table": "table",
+    "desk": "table",
+    "sofa": "sofa",
+    "couch": "sofa",
+    "cabinet": "cabinet",
+    "bed": "bed",
+    "shelf": "shelf",
+    "bookcase": "shelf"
+  },
+  "rule": "Frozen before model prediction; unmapped classes including stool are excluded from proxy evaluation"
+}

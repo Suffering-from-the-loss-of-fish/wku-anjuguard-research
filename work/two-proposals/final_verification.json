@@ -1,0 +1,114 @@
+{
+  "outputs": [
+    {
+      "direction": 1,
+      "file": "/Users/wangkai/Desktop/温肯科研/方向一申请书.docx",
+      "sha256": "6f7f5ce6d8ed0f835d2c81758eb9bd9d89ff4311a7a4729e9526c6519255d223",
+      "pages": 11,
+      "authored_paragraphs": 85,
+      "all_authored_paragraphs_in_pdf": true,
+      "all_original_prompts_and_run_formatting_preserved": true,
+      "page_geometry_preserved": true,
+      "unchanged_package_parts": 21,
+      "modified_parts": [
+        "word/document.xml",
+        "word/settings.xml"
+      ],
+      "settings_only_adds_updateFields": true,
+      "page_body_character_counts": [
+        743,
+        953,
+        1361,
+        658,
+        900,
+        927,
+        779,
+        781,
+        602,
+        757,
+        789
+      ]
+    },
+    {
+      "direction": 2,
+      "file": "/Users/wangkai/Desktop/温肯科研/方向二申请书.docx",
+      "sha256": "f0a77d0017543c54e8c0d59d804d6df13885dc181f0ea16a61368adda69d1414",
+      "pages": 10,
+      "authored_paragraphs": 77,
+      "all_authored_paragraphs_in_pdf": true,
+      "all_original_prompts_and_run_formatting_preserved": true,
+      "page_geometry_preserved": true,
+      "unchanged_package_parts": 21,
+      "modified_parts": [
+        "word/document.xml",
+        "word/settings.xml"
+      ],
+      "settings_only_adds_updateFields": true,
+      "page_body_character_counts": [
+        721,
+        1241,
+        854,
+        876,
+        834,
+        826,
+        702,
+        688,
+        524,
+        567
+      ]
+    }
+  ],
+  "reference_sha256": "c577c4e311f8ff371aa5b288e23efecf28c04f97ee28bfb7ed2412fcaf864095",
+  "reference_unchanged": true,
+  "existing_deliverables_unchanged": 9,
+  "scope": "Document creation and QA only. No model/device experiments or submission performed.",
+  "visual_qa": {
+    "direction1": {
+      "document": "/Users/wangkai/Desktop/温肯科研/方向一申请书.docx",
+      "render_directory": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/two-proposals/direction1-render-v1",
+      "pages": 11,
+      "all_pages_visually_inspected": true,
+      "image_size": [
+        1414,
+        2000
+      ],
+      "inspection_mode": "Each full page PNG opened with original detail; every page reviewed.",
+      "visual_result": "PASS",
+      "visual_findings": {
+        "missing_glyphs": false,
+        "clipped_text": false,
+        "overlap": false,
+        "orphaned_headings": false,
+        "blank_pages": false,
+        "header_and_page_numbers": "School crest/header and sequential page numbers 1-11 retained and readable."
+      },
+      "notes": [
+        "Long body paragraphs continue from page 5 to 6 and page 6 to 7 with at least two continuation lines; no lost text.",
+        "Reference list continues from page 2 to 3; each citation itself remains together.",
+        "Part II starts on page 10."
+      ],
+      "authored_paragraphs": 85,
+      "matched_paragraphs": 85,
+      "missing_paragraph_indices": [],
+      "text_comparison": "NFKC and whitespace normalization; repeated school header and page-number-only footer removed before joining page text. Punctuation retained.",
+      "pdf_sha256": "16422e48dab952c39ceda44bf922fa0aeac9df1af5559d4b1ed1b540cb037efd",
+      "content_sha256": "fc8e96e6e85b141713a1a26c206ed9443deaa4478b1645a99aa81995cde1a7ca",
+      "scope": "Document quality only; no experiments run and no proposal content changed."
+    },
+    "direction2": {
+      "direction": 2,
+      "pages": 10,
+      "final_render": "direction2-render-v2",
+      "all_pages_visually_inspected": true,
+      "result": "PASS",
+      "notes": [
+        "All 10 v1 pages inspected individually. Only page 7 changed in v2; final page 7 re-inspected and other 9 PNGs byte-identical.",
+        "No missing glyphs, clipping, overlaps, isolated headings or blank pages.",
+        "School template and page numbering retained."
+      ],
+      "evidence_scope": "Document QA only"
+    }
+  },
+  "checked_at": "2026-10-31T15:54:56.365010+00:00",
+  "all_final_pages_reviewed": 21
+}

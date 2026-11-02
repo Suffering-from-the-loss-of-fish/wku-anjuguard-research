@@ -1,0 +1,42 @@
+[
+  {
+    "document": "summary",
+    "pages": 4,
+    "missing_text_count": 0,
+    "missing_text": [],
+    "unknown_citations": [],
+    "placeholders": []
+  },
+  {
+    "document": "route1",
+    "pages": 8,
+    "missing_text_count": 0,
+    "missing_text": [],
+    "unknown_citations": [],
+    "placeholders": []
+  },
+  {
+    "document": "route2",
+    "pages": 8,
+    "missing_text_count": 0,
+    "missing_text": [],
+    "unknown_citations": [],
+    "placeholders": []
+  },
+  {
+    "document": "route3",
+    "pages": 8,
+    "missing_text_count": 0,
+    "missing_text": [],
+    "unknown_citations": [],
+    "placeholders": []
+  },
+  {
+    "document": "comparison",
+    "pages": 4,
+    "missing_text_count": 0,
+    "missing_text": [],
+    "unknown_citations": [],
+    "placeholders": []
+  }
+]

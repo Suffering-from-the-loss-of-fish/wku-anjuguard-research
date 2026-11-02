@@ -1,0 +1,23 @@
+{
+  "documents": [
+    {
+      "file": "06_导师选题单.docx",
+      "pages": 1,
+      "body_paragraphs_checked": 18,
+      "missing_text": [],
+      "unexpected_placeholders": [],
+      "visual_review": "passed"
+    },
+    {
+      "file": "07_两周实验计划.docx",
+      "pages": 4,
+      "body_paragraphs_checked": 126,
+      "missing_text": [],
+      "unexpected_placeholders": [],
+      "visual_review": "passed"
+    }
+  ],
+  "prior_five_documents_unchanged": true,
+  "references_verified_on": "2026-10-30",
+  "note": "Blank discussion line is an intentional response field; this verification is document QA, not research results."
+}

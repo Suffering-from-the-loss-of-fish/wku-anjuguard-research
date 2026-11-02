@@ -1,0 +1,24 @@
+{
+  "reference_sha256": "c577c4e311f8ff371aa5b288e23efecf28c04f97ee28bfb7ed2412fcaf864095",
+  "source_unchanged": true,
+  "output": "/Users/wangkai/Desktop/温肯科研/方向二申请书.docx",
+  "output_sha256": "f0a77d0017543c54e8c0d59d804d6df13885dc181f0ea16a61368adda69d1414",
+  "modified_parts": [
+    "word/document.xml",
+    "word/settings.xml"
+  ],
+  "preserved_parts": 21,
+  "sections_filled": [
+    "context",
+    "objectives",
+    "methods",
+    "innovation",
+    "plan",
+    "basis",
+    "conditions"
+  ],
+  "authored_paragraphs": 77,
+  "all_authored_paragraphs_present": true,
+  "character_count": 6791,
+  "all_bilingual_questions_retained": true
+}

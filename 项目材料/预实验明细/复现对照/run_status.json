@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "kind": "fresh_real_local_inference",
+  "paid_api_budget_usd": 0,
+  "data_models_shared_from": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot",
+  "output": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/runs/reproductions/20261102T030824Z",
+  "started_utc": "20261102T030824Z"
+}

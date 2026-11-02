@@ -1,0 +1,13 @@
+{
+  "direction": 2,
+  "pages": 10,
+  "final_render": "direction2-render-v2",
+  "all_pages_visually_inspected": true,
+  "result": "PASS",
+  "notes": [
+    "All 10 v1 pages inspected individually. Only page 7 changed in v2; final page 7 re-inspected and other 9 PNGs byte-identical.",
+    "No missing glyphs, clipping, overlaps, isolated headings or blank pages.",
+    "School template and page numbering retained."
+  ],
+  "evidence_scope": "Document QA only"
+}

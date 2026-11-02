@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-30",
+  "sources": [
+    {
+      "reference": 1,
+      "url": "https://arxiv.org/abs/2404.07479",
+      "basis": "Author abstract and publication metadata; DOI independently corroborated in author publication bibliography."
+    },
+    {
+      "reference": 2,
+      "url": "https://concept-graphs.github.io/",
+      "basis": "Author project abstract, pipeline and BibTeX."
+    },
+    {
+      "reference": 3,
+      "url": "https://open-vox.github.io/",
+      "basis": "Author project abstract, methods and affiliation."
+    },
+    {
+      "reference": 4,
+      "url": "https://ovi-map.github.io/",
+      "basis": "Author project, CVPR 2026 BibTeX and system overview; CVF fetch blocked, no claim of full-paper reproduction."
+    },
+    {
+      "reference": 5,
+      "url": "https://arxiv.org/abs/2609.00775",
+      "basis": "Primary arXiv abstract search result and metadata; direct fetch unavailable; explicitly a preprint."
+    },
+    {
+      "reference": 6,
+      "url": "https://waldjohannau.github.io/RIO/",
+      "basis": "Author project and dataset terms link."
+    },
+    {
+      "reference": 7,
+      "url": "https://github.com/banshanbans/AnjuGuard",
+      "basis": "Local read-only inspection at df281277215a1b55fd74dc8e43203e3954081976; no runtime claims."
+    }
+  ],
+  "scope": "Targeted related-work check, not an exhaustive literature review or reproduction."
+}

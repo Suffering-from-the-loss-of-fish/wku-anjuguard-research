@@ -1,0 +1,15 @@
+{
+  "source_commit": "b0abccc",
+  "initial_result_package_extracted": "/tmp/anjuguard_package_verify_20261102/minipilot",
+  "portable_recompute_passed": true,
+  "run_sh_executable": true,
+  "unit_tests": 47,
+  "unit_tests_status": "passed",
+  "new_paid_API_usd": 0,
+  "original_app_commit": "df281277215a1b55fd74dc8e43203e3954081976",
+  "original_app_worktree": "clean",
+  "missing_human_review": "both directions pending",
+  "formal_event_and_risk_metrics": "unmeasured",
+  "one_key_real_completed": true,
+  "independent_rerun_http_requests": 229
+}

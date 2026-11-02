@@ -1,0 +1,9 @@
+{"policy": "A_fixed", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "B_original", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_fix", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_tune_i3_h4_r1280", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_tune_i3_h4_r720", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_tune_i6_h6_r1280", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_tune_i6_h6_r720", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "D_tune_s12", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "D_tune_s6", "exact_summary_reproduced": true, "different_fields": []}

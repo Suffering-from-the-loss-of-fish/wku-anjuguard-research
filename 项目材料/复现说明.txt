@@ -1,0 +1,13 @@
+AnjuGuard 两方向最小预实验
+
+请先阅读导师结论.docx与预实验报告.docx。
+源码与真实数据工作区：/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot
+
+一键命令（在该目录）：
+./run.sh smoke  # 合成/单元验证
+./run.sh recompute  # 无新推理，按保存记录复算
+./run.sh real  # 新目录运行真实公开数据与本机模型
+首次解压使用 ./run.sh setup；MLX需Apple Silicon与ffmpeg。
+
+本轮API费用0，独立人工复核0；正式风险指标、质量非劣效未测。
+预实验明细保留CSV/JSONL；失败案例和复核表链接指向本机工作区。移动或解压后需重建链接。原始大视频/模型不重复打包，可用下载器恢复。

@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/Users/wangkai/Desktop/温肯科研/预实验报告.docx",
+    "bytes": 47435,
+    "sha256": "adfb78f2853b78ebd14259d1a6155b4bd6a3f535da556d19e808ba71f8e22aa6"
+  },
+  {
+    "path": "/Users/wangkai/Desktop/温肯科研/导师结论.docx",
+    "bytes": 39461,
+    "sha256": "52cd72fe6b2485580726b7da32767589ce79728ba103618e5aed8ff4c923221b"
+  },
+  {
+    "path": "/Users/wangkai/Desktop/温肯科研/预实验结果.xlsx",
+    "bytes": 95408,
+    "sha256": "57c3de0de54466be0eb90692619d1ccaad3b27aa6a71c7ff846bfc31f85f58b0"
+  },
+  {
+    "path": "/Users/wangkai/Desktop/温肯科研/补充复核.xlsx",
+    "bytes": 76342,
+    "sha256": "597d9fc3fbebe040ee97d0088b7d4b2041d82a765ccb0f69d78db795946c2a2a"
+  },
+  {
+    "path": "/Users/wangkai/Desktop/温肯科研/失败案例.html",
+    "bytes": 137569,
+    "sha256": "1206daa6f197209aeb03810862ba7f6f673173ec0fb821c14bdb0ecd6c326482"
+  }
+]

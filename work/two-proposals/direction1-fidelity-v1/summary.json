@@ -1,0 +1,20 @@
+{
+  "a_docx": "/Users/wangkai/Documents/ChatGPT/\u6e29\u80af\u79d1\u7814/work/two-proposals/\u5b66\u6821\u539f\u6a21\u677f.docx",
+  "b_docx": "/Users/wangkai/Desktop/\u6e29\u80af\u79d1\u7814/\u65b9\u5411\u4e00\u7533\u8bf7\u4e66.docx",
+  "pages_a": 3,
+  "pages_b": 11,
+  "changed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "num_changed_pages": 11
+}

@@ -1,0 +1,34 @@
+{
+  "cases": [
+    "missing optional metadata does not block photo record",
+    "numeric timestamp and frame preserve photo eligibility",
+    "timestamp and frame stored as numeric values",
+    "candidate boxes shared while identity truth withheld",
+    "all temporary metadata cleared"
+  ],
+  "files": [
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/说明下.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/照片.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/照片元数据.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/目标左.png"
+  ],
+  "sheets": [
+    "填写说明",
+    "汇总",
+    "场景登记",
+    "照片登记",
+    "目标标注",
+    "配对真值",
+    "方法结果"
+  ],
+  "capacity": {
+    "场景登记": 20,
+    "照片登记": 160,
+    "目标标注": 400,
+    "配对真值": 120,
+    "方法结果": 360
+  },
+  "reused_unchanged_checks": "Original 16 formula tests and unaffected-sheet visual review retained in validation.json.",
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "output": "/Users/wangkai/Desktop/温肯科研/08_采集标注表.xlsx"
+}

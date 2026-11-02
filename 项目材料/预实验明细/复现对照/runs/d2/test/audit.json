@@ -1,0 +1,73 @@
+{
+  "split": "test",
+  "policies": {
+    "A_fixed": {
+      "frames_with_proxy_reference": 337,
+      "all_frames": 347,
+      "proxy_reference_completeness": 0.9711815561959655,
+      "valid_responses_without_proxy_reference": 6,
+      "predicted_objects_without_proxy_reference": 1,
+      "predicted_objects_with_proxy_reference": 10,
+      "unmatched_predictions_on_scorable_proxy_frames": 6,
+      "confirmed_false_positive_rate": null,
+      "confirmed_truth_coverage": 0,
+      "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+      "causal_and_retry_violations": []
+    },
+    "B_original": {
+      "frames_with_proxy_reference": 337,
+      "all_frames": 347,
+      "proxy_reference_completeness": 0.9711815561959655,
+      "valid_responses_without_proxy_reference": 5,
+      "predicted_objects_without_proxy_reference": 1,
+      "predicted_objects_with_proxy_reference": 8,
+      "unmatched_predictions_on_scorable_proxy_frames": 4,
+      "confirmed_false_positive_rate": null,
+      "confirmed_truth_coverage": 0,
+      "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+      "causal_and_retry_violations": []
+    },
+    "C_fix": {
+      "frames_with_proxy_reference": 337,
+      "all_frames": 347,
+      "proxy_reference_completeness": 0.9711815561959655,
+      "valid_responses_without_proxy_reference": 4,
+      "predicted_objects_without_proxy_reference": 1,
+      "predicted_objects_with_proxy_reference": 9,
+      "unmatched_predictions_on_scorable_proxy_frames": 3,
+      "confirmed_false_positive_rate": null,
+      "confirmed_truth_coverage": 0,
+      "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+      "causal_and_retry_violations": []
+    },
+    "C_tuned": {
+      "frames_with_proxy_reference": 337,
+      "all_frames": 347,
+      "proxy_reference_completeness": 0.9711815561959655,
+      "valid_responses_without_proxy_reference": 4,
+      "predicted_objects_without_proxy_reference": 1,
+      "predicted_objects_with_proxy_reference": 7,
+      "unmatched_predictions_on_scorable_proxy_frames": 4,
+      "confirmed_false_positive_rate": null,
+      "confirmed_truth_coverage": 0,
+      "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+      "causal_and_retry_violations": []
+    },
+    "D_candidate": {
+      "frames_with_proxy_reference": 337,
+      "all_frames": 347,
+      "proxy_reference_completeness": 0.9711815561959655,
+      "valid_responses_without_proxy_reference": 5,
+      "predicted_objects_without_proxy_reference": 1,
+      "predicted_objects_with_proxy_reference": 6,
+      "unmatched_predictions_on_scorable_proxy_frames": 3,
+      "confirmed_false_positive_rate": null,
+      "confirmed_truth_coverage": 0,
+      "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+      "causal_and_retry_violations": []
+    }
+  },
+  "error_count": 0,
+  "frozen_code_matches": true,
+  "test_started_after_freeze": true
+}

@@ -1,0 +1,18 @@
+{
+  "evidence_type": "recorded_real_local_pipeline_wall_times",
+  "initial_integrated_wall_seconds": 7.467620833020192,
+  "feature_extraction_wall_including_model_load_crops_quality_preprocessing_forward_and_save_seconds": 4.996805624978151,
+  "model_load_seconds": 0.11040679196594283,
+  "encoder_forward_seconds": 4.243679579114541,
+  "encoder_preprocessing_seconds": 0.3211618759087287,
+  "frame_pair_shared_geometry_matching_preparation_seconds": 0.6806275801500306,
+  "all_7_methods_decision_total_seconds": 0.002244146540760994,
+  "supplement_A_fix_decision_total_seconds": 5.7876051869243383e-05,
+  "quality_only_seconds": null,
+  "quality_timing_note": "Included in feature_extraction_wall; not separately instrumented in initial run. Do not infer isolated quality runtime by subtracting unrelated timing terms.",
+  "per_method_complete_pipeline_latency_comparison": "not measured independently; feature/geometry preparation shared",
+  "api_calls": 0,
+  "api_charge_usd": 0,
+  "electricity_cost_and_device_energy": "not measured",
+  "cached_speed_is_inference_latency": false
+}

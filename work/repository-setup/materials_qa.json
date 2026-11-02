@@ -1,0 +1,55 @@
+{
+  "source": "Desktop/温肯科研",
+  "destination": "项目材料",
+  "source_files_copied": 404,
+  "excluded": [
+    "预实验代码.zip (planned GitHub Release asset)"
+  ],
+  "desktop_sources_hash_unchanged": true,
+  "unchanged_copies_hash_identical": 402,
+  "all_docx_hash_identical": true,
+  "changes": [
+    {
+      "file": "项目材料/补充复核.xlsx",
+      "type": "xlsx",
+      "changed_references": 596,
+      "changed_members": [
+        "xl/worksheets/_rels/sheet1.xml.rels",
+        "xl/worksheets/_rels/sheet2.xml.rels"
+      ],
+      "unchanged_members": 14,
+      "formula_hyperlinks": 0,
+      "zip_integrity": "passed",
+      "all_non_link_parts_byte_identical": true
+    },
+    {
+      "file": "项目材料/失败案例.html",
+      "type": "html",
+      "changed_references": 476,
+      "outside_href_src_unchanged": true
+    }
+  ],
+  "checked_local_links": 1072,
+  "repository_link_count": 791,
+  "download_required_link_count": 281,
+  "download_required_targets": [
+    "work/minipilot/data/d2/raw/40777060/40777060.mov",
+    "work/minipilot/data/d2/raw/40777063/40777063.mov",
+    "work/minipilot/data/d2/raw/41069042/41069042.mov",
+    "work/minipilot/data/d2/raw/41069043/41069043.mov",
+    "work/minipilot/data/d2/raw/41159529/41159529.mov",
+    "work/minipilot/data/d2/raw/41159530/41159530.mov"
+  ],
+  "unexpected_missing": [],
+  "limits": [
+    "Static target and ZIP-member verification only; native Excel click behavior not tested.",
+    "Original video links resolve after the supplied downloader restores raw data.",
+    "No research figures, worksheet cells, styles, formulas, or Word contents changed."
+  ],
+  "artifact_tool_import_after_patch": "passed",
+  "sample_render_before_after_byte_identical": true,
+  "image_link_count": 789,
+  "unique_images_decode_checked": 243,
+  "remaining_absolute_link_count": 0,
+  "image_decode_check": "passed"
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "40777063",
+  "status": "proxy_draft",
+  "events": 90,
+  "observations": 289,
+  "frames": 69,
+  "reviewed_events": 0,
+  "clock_alignment": {
+    "status": "aligned",
+    "method": "median RGB matched timestamp offset with robust inlier gate",
+    "offset_s": 166.45309500000002,
+    "inlier_count": 66,
+    "frame_count": 69,
+    "median_abs_residual_s": 0.0008509999999830598,
+    "median_rgb_similarity": 0.9995946682557801,
+    "valid_matches": 66,
+    "independently_reviewed": false
+  },
+  "skipped_frames": [
+    {
+      "frame_id": "40777063_000001",
+      "reason": "RGB/clock alignment gate failed"
+    },
+    {
+      "frame_id": "40777063_000046",
+      "reason": "RGB/clock alignment gate failed"
+    },
+    {
+      "frame_id": "40777063_000057",
+      "reason": "RGB/clock alignment gate failed"
+    }
+  ],
+  "excluded_annotation_categories": [
+    "dishwasher",
+    "fireplace",
+    "oven",
+    "refrigerator",
+    "sink",
+    "stool",
+    "stove"
+  ],
+  "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+  "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+}

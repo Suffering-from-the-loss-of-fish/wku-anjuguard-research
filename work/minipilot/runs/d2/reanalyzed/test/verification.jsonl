@@ -1,0 +1,5 @@
+{"policy": "A_fixed", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "B_original", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_fix", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "C_tuned", "exact_summary_reproduced": true, "different_fields": []}
+{"policy": "D_candidate", "exact_summary_reproduced": true, "different_fields": []}

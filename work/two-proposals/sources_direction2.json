@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-31",
+  "purpose": "WKU direction two research proposal primary source checks",
+  "sources": [
+    {
+      "number": 1,
+      "title": "RASSAR: Room Accessibility and Safety Scanning in Augmented Reality",
+      "url": "https://arxiv.org/abs/2404.07479",
+      "type": "author paper",
+      "verified": "Title, authors and CHI 2024 attribution; mobile AR indoor accessibility and safety checking using LiDAR and computer vision.",
+      "scope": "Prior application work, not evidence of AnjuGuard performance."
+    },
+    {
+      "number": 2,
+      "title": "Q-Frame: Query-aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs",
+      "url": "https://arxiv.org/abs/2506.22139",
+      "type": "author paper v3",
+      "verified": "Authors Zhang, Yang, Yin, Luo and Luan; accepted ICCV 2025; query-aware frame selection and multiple resolutions using text-image similarity.",
+      "scope": "Online prefix restriction is a proposed task adaptation; original offline video results are not an online baseline score. CVF HTML direct fetch returned 403; author arXiv record was available."
+    },
+    {
+      "number": 3,
+      "title": "AxiomVision: Accuracy-Guaranteed Adaptive Visual Model Selection for Perspective-Aware Video Analytics",
+      "url": "https://arxiv.org/abs/2407.20124",
+      "code_url": "https://github.com/zeyuzhangzyz/axiomvision",
+      "type": "author paper v2 and author repository search result",
+      "verified": "Six named authors, accepted ACM MM 2024; edge-cloud model choice, continual online learning, perspective-aware selection and topology grouping.",
+      "scope": "Adaptation must account for exploration and changed task assumptions; no claim that original theoretical guarantee transfers to our application."
+    },
+    {
+      "number": 4,
+      "title": "LiveVLM: Efficient Online Video Understanding via Streaming-Oriented KV Cache and Retrieval",
+      "url": "https://arxiv.org/abs/2505.15269v2",
+      "code_url": "https://github.com/sjtu-zhao-lab/LiveVLM",
+      "type": "author paper v2 and official repository",
+      "verified": "Accepted DAC 2026; DOI 10.1145/3770743.3804012; v2 revised 2026-04-23 uses Vision Sink Bucketing and Position-agnostic KV Retrieval.",
+      "scope": "Requires access to model KV state; not directly comparable to black-box API request costs. No v1 chunk-compression description reused."
+    },
+    {
+      "number": 5,
+      "title": "AnjuGuard local implementation",
+      "url": "https://github.com/banshanbans/AnjuGuard",
+      "type": "local source read",
+      "commit": "df281277215a1b55fd74dc8e43203e3954081976",
+      "local_files": [
+        "AnjuGuard/packages/AnjuCore/Sources/AnjuCore/NativeRealtimeVideoPolicy.swift",
+        "AnjuGuard/apps/ios/RASSAR App/AnjuGuard/FrameQualityService.swift",
+        "AnjuGuard/services/backend/app/providers/vision.py"
+      ],
+      "verified": "Read current source for normal/degraded video parameters, network/thermal/AR-rate transition, representative ranking and perceptual hash duplicate filtering; brightness/sharpness calculation; model/token/latency record fields.",
+      "scope": "Code inspection only. No real model, energy, device, performance or accuracy experiment executed."
+    }
+  ],
+  "research_status": "Proposed protocol and hypotheses only; teacher approval, team, site permission, model budget and device conditions remain unconfirmed.",
+  "draft_constraints": [
+    "Fixed model first; sending time and image resolution first; model routing optional later phase.",
+    "Causal prefix information only; pending results unavailable until their actual arrival time.",
+    "Quality gate covers event recall, critical classes, false reports and abstentions; failures remain in denominators.",
+    "Non-inferiority margin selected before test by task consequences and pilot information, never relaxed after observing test outcomes.",
+    "Site-based splits with related rooms, sessions and crops kept together; additional cross-session checks.",
+    "Cached responses cannot stand in for online latency; synthetic network tests separately labeled.",
+    "Energy claims require reliable energy measurement; battery percentage is not sufficient."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "D_tune_s12",
+  "kind": "candidate",
+  "interval_s": 3,
+  "hash_threshold": 4,
+  "max_silence_s": 12,
+  "result_ttl_s": 12,
+  "local_threshold": 0.12,
+  "maximum_requests": 30
+}

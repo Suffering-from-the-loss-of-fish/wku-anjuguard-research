@@ -1,0 +1,44 @@
+{
+  "reviewer_kind": "assistant_visual_QA",
+  "independent_human_review": false,
+  "image": "runs/d2_data/geometry_qa_upright.png",
+  "frames": [
+    "40777060_000010",
+    "40777060_000025",
+    "40777060_000040",
+    "40777060_000055"
+  ],
+  "checks": [
+    "source display matrix rotation is upright",
+    "derived depth-supported boxes broadly correspond to furniture regions"
+  ],
+  "limitations": [
+    "not independent annotation",
+    "3D boxes can cover empty/background portions",
+    "no earliest-sufficient visibility truth"
+  ],
+  "independent_technical_check": {
+    "reviewer_kind": "assistant_visual_QA",
+    "independent_human_review": false,
+    "image": "runs/d2_data/independent_visual_qa.png",
+    "frames": [
+      "40777060_000010",
+      "40777063_000030",
+      "41069042_000020",
+      "41159530_000040"
+    ],
+    "splits": {
+      "dev": 2,
+      "test": 2
+    },
+    "findings": [
+      "All four sampled frames are upright after source Display Matrix rotation.",
+      "Cabinet, shelf, chair and table proxy boxes broadly correspond to furniture regions.",
+      "On test frame 41069042_000020 the coarse bed proxy box includes a foreground nightstand; derived volume/depth visibility is not human segmentation truth."
+    ],
+    "consequences": [
+      "No thresholds, reference gates or model prompts changed after checking holdout images.",
+      "No human annotation fields were populated; independent review remains pending."
+    ]
+  }
+}

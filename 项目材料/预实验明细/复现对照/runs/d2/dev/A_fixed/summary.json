@@ -1,0 +1,122 @@
+{
+  "evidence_status": "exploratory_real_model_on_derived_visibility_labels",
+  "human_reviewed_event_metrics": "未测",
+  "risk_or_critical_category_recall": "未测",
+  "noninferiority": "未测",
+  "proxy_truth_review_status": "pending",
+  "deadline_seconds": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "bbox_iou_threshold": 0.3,
+  "proxy_events": 174,
+  "proxy_recall_by_deadline": {
+    "2": 0.005747126436781609,
+    "5": 0.022988505747126436,
+    "10": 0.034482758620689655,
+    "20": 0.034482758620689655
+  },
+  "per_class": {
+    "bed": {
+      "n": 0,
+      "proxy_recall_by_deadline": {
+        "2": null,
+        "5": null,
+        "10": null,
+        "20": null
+      }
+    },
+    "cabinet": {
+      "n": 90,
+      "proxy_recall_by_deadline": {
+        "2": 0.011111111111111112,
+        "5": 0.022222222222222223,
+        "10": 0.044444444444444446,
+        "20": 0.044444444444444446
+      }
+    },
+    "chair": {
+      "n": 37,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.02702702702702703,
+        "10": 0.02702702702702703,
+        "20": 0.02702702702702703
+      }
+    },
+    "shelf": {
+      "n": 17,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.058823529411764705,
+        "10": 0.058823529411764705,
+        "20": 0.058823529411764705
+      }
+    },
+    "sofa": {
+      "n": 0,
+      "proxy_recall_by_deadline": {
+        "2": null,
+        "5": null,
+        "10": null,
+        "20": null
+      }
+    },
+    "table": {
+      "n": 30,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    }
+  },
+  "proxy_unmatched_predictions": 11,
+  "proxy_unjudged_events": 167,
+  "proxy_late_after_visibility_end": 1,
+  "ticks": 136,
+  "logical_requests": 21,
+  "logical_attempts_including_replays": 21,
+  "new_real_http_requests": 21,
+  "new_real_http_attempts": 21,
+  "recorded_responses_replayed": 0,
+  "encoded_image_bytes_all_logical_attempts": 1397386,
+  "actual_http_request_body_bytes": 1868591,
+  "counterfactual_http_body_bytes_all_logical_attempts": 1868591,
+  "api_cost": 0,
+  "api_cost_savings_percent": null,
+  "cost_note": "本地模型无付费API；不含电费/设备折旧，不能由调用下降推断节省金额",
+  "request_status_counts": {
+    "ok": 12,
+    "invalid": 9,
+    "error": 0
+  },
+  "unfinished_at_video_end": 1,
+  "recorded_e2e_p50_s": 1.6732001670752652,
+  "recorded_e2e_p95_s": 2.758348000003025,
+  "new_actual_http_p50_s": 1.6516869579791091,
+  "new_actual_http_p95_s": 2.728990999981761,
+  "scheduler_p50_ms": 9.125874988967553,
+  "scheduler_p95_ms": 11.485187264042906,
+  "reason_counts": {
+    "fixed_interval": 21,
+    "fixed_interval_wait": 86,
+    "inflight": 29
+  },
+  "proxy_stale_answer_ticks": 23,
+  "unknown_answer_ticks": 68,
+  "answer_coverage": 0.5,
+  "ttl_withdrawal_ticks": 0,
+  "usable_completed_requests": 10,
+  "usable_completion_rate": 0.47619047619047616,
+  "usable_response_conditional_p50_s": 1.6693979795090854,
+  "usable_response_conditional_p95_s": 2.7425911511993033,
+  "all_request_usable_result_p50_s": null,
+  "all_request_usable_result_p95_s": null,
+  "usable_latency_note": "Conditional quantiles include only valid quality-usable responses completed within video; all-request usable quantiles are conservatively null if any failed/invalid/unusable/unfinished request. recorded_e2e quantiles measure request termination, not usable answers.",
+  "run_mode": "real_http_and_recorded_response_driven_offline_replay",
+  "max_frames_debug_limit": null
+}

@@ -1,0 +1,322 @@
+{
+  "status": "completed",
+  "evidence_status": "real_public_rgb_with_real_local_dinov2_inference_and_publisher_annotations_initial_measurement",
+  "independent_human_review": "not completed",
+  "strict_site_holdout": "not verified",
+  "api_calls": 0,
+  "api_charge_usd": 0,
+  "electricity_or_device_energy": "not measured",
+  "elapsed_seconds": 7.467620833020192,
+  "feature_timing": {
+    "evidence_type": "real_local_frozen_neural_model_inference",
+    "device": "cpu",
+    "dtype": "float32",
+    "torch_threads": 4,
+    "encoder_load_seconds": 0.11040679196594283,
+    "feature_extraction_wall_seconds": 4.996805624978151,
+    "encoder_forward_seconds": 4.243679579114541,
+    "preprocessing_seconds": 0.3211618759087287,
+    "successful_observations": 315,
+    "failed_observations": 0,
+    "batches": [
+      {
+        "offset": 0,
+        "count": 8,
+        "preprocess_seconds": 0.009271749993786216,
+        "inference_seconds": 0.3279051659628749,
+        "status": "completed"
+      },
+      {
+        "offset": 8,
+        "count": 8,
+        "preprocess_seconds": 0.007788416987750679,
+        "inference_seconds": 0.09494491701480001,
+        "status": "completed"
+      },
+      {
+        "offset": 16,
+        "count": 8,
+        "preprocess_seconds": 0.0070875000092200935,
+        "inference_seconds": 0.08960674999980256,
+        "status": "completed"
+      },
+      {
+        "offset": 24,
+        "count": 8,
+        "preprocess_seconds": 0.007622958044521511,
+        "inference_seconds": 0.08964908303460106,
+        "status": "completed"
+      },
+      {
+        "offset": 32,
+        "count": 8,
+        "preprocess_seconds": 0.00785487494431436,
+        "inference_seconds": 0.09223362500779331,
+        "status": "completed"
+      },
+      {
+        "offset": 40,
+        "count": 8,
+        "preprocess_seconds": 0.008347874972969294,
+        "inference_seconds": 0.08974441699683666,
+        "status": "completed"
+      },
+      {
+        "offset": 48,
+        "count": 8,
+        "preprocess_seconds": 0.007736750005278736,
+        "inference_seconds": 0.09018620901042596,
+        "status": "completed"
+      },
+      {
+        "offset": 56,
+        "count": 8,
+        "preprocess_seconds": 0.008541041985154152,
+        "inference_seconds": 0.09090850001666695,
+        "status": "completed"
+      },
+      {
+        "offset": 64,
+        "count": 8,
+        "preprocess_seconds": 0.007809583039488643,
+        "inference_seconds": 0.0909879159880802,
+        "status": "completed"
+      },
+      {
+        "offset": 72,
+        "count": 8,
+        "preprocess_seconds": 0.008610250020865351,
+        "inference_seconds": 0.08985879202373326,
+        "status": "completed"
+      },
+      {
+        "offset": 80,
+        "count": 8,
+        "preprocess_seconds": 0.008887165982741863,
+        "inference_seconds": 0.09057058295002207,
+        "status": "completed"
+      },
+      {
+        "offset": 88,
+        "count": 8,
+        "preprocess_seconds": 0.007517000020015985,
+        "inference_seconds": 0.0991672909585759,
+        "status": "completed"
+      },
+      {
+        "offset": 96,
+        "count": 8,
+        "preprocess_seconds": 0.007466249982826412,
+        "inference_seconds": 0.10185450001154095,
+        "status": "completed"
+      },
+      {
+        "offset": 104,
+        "count": 8,
+        "preprocess_seconds": 0.007760791981127113,
+        "inference_seconds": 0.10449979203986004,
+        "status": "completed"
+      },
+      {
+        "offset": 112,
+        "count": 8,
+        "preprocess_seconds": 0.007704709016252309,
+        "inference_seconds": 0.10576808301266283,
+        "status": "completed"
+      },
+      {
+        "offset": 120,
+        "count": 8,
+        "preprocess_seconds": 0.008434874995145947,
+        "inference_seconds": 0.10919804201694205,
+        "status": "completed"
+      },
+      {
+        "offset": 128,
+        "count": 8,
+        "preprocess_seconds": 0.008920792024582624,
+        "inference_seconds": 0.10609945800388232,
+        "status": "completed"
+      },
+      {
+        "offset": 136,
+        "count": 8,
+        "preprocess_seconds": 0.0072938340017572045,
+        "inference_seconds": 0.10590245801722631,
+        "status": "completed"
+      },
+      {
+        "offset": 144,
+        "count": 8,
+        "preprocess_seconds": 0.007803375017829239,
+        "inference_seconds": 0.10757474997080863,
+        "status": "completed"
+      },
+      {
+        "offset": 152,
+        "count": 8,
+        "preprocess_seconds": 0.008218708040658385,
+        "inference_seconds": 0.10397075000219047,
+        "status": "completed"
+      },
+      {
+        "offset": 160,
+        "count": 8,
+        "preprocess_seconds": 0.007525041990447789,
+        "inference_seconds": 0.10329825000371784,
+        "status": "completed"
+      },
+      {
+        "offset": 168,
+        "count": 8,
+        "preprocess_seconds": 0.007831791997887194,
+        "inference_seconds": 0.11079316702671349,
+        "status": "completed"
+      },
+      {
+        "offset": 176,
+        "count": 8,
+        "preprocess_seconds": 0.008509540988598019,
+        "inference_seconds": 0.11384925001766533,
+        "status": "completed"
+      },
+      {
+        "offset": 184,
+        "count": 8,
+        "preprocess_seconds": 0.009582708007656038,
+        "inference_seconds": 0.11893066600896418,
+        "status": "completed"
+      },
+      {
+        "offset": 192,
+        "count": 8,
+        "preprocess_seconds": 0.008125290973111987,
+        "inference_seconds": 0.11440658400533721,
+        "status": "completed"
+      },
+      {
+        "offset": 200,
+        "count": 8,
+        "preprocess_seconds": 0.008938583021517843,
+        "inference_seconds": 0.1105357080232352,
+        "status": "completed"
+      },
+      {
+        "offset": 208,
+        "count": 8,
+        "preprocess_seconds": 0.008556000015232712,
+        "inference_seconds": 0.10831237497041002,
+        "status": "completed"
+      },
+      {
+        "offset": 216,
+        "count": 8,
+        "preprocess_seconds": 0.007730166951660067,
+        "inference_seconds": 0.11410154204349965,
+        "status": "completed"
+      },
+      {
+        "offset": 224,
+        "count": 8,
+        "preprocess_seconds": 0.008969165966846049,
+        "inference_seconds": 0.10637999995378777,
+        "status": "completed"
+      },
+      {
+        "offset": 232,
+        "count": 8,
+        "preprocess_seconds": 0.007855333969928324,
+        "inference_seconds": 0.11004258302273229,
+        "status": "completed"
+      },
+      {
+        "offset": 240,
+        "count": 8,
+        "preprocess_seconds": 0.00788574997568503,
+        "inference_seconds": 0.10888633300783113,
+        "status": "completed"
+      },
+      {
+        "offset": 248,
+        "count": 8,
+        "preprocess_seconds": 0.00784058403223753,
+        "inference_seconds": 0.09894454199820757,
+        "status": "completed"
+      },
+      {
+        "offset": 256,
+        "count": 8,
+        "preprocess_seconds": 0.009036540985107422,
+        "inference_seconds": 0.09856204100651667,
+        "status": "completed"
+      },
+      {
+        "offset": 264,
+        "count": 8,
+        "preprocess_seconds": 0.007991666963789612,
+        "inference_seconds": 0.10466104099759832,
+        "status": "completed"
+      },
+      {
+        "offset": 272,
+        "count": 8,
+        "preprocess_seconds": 0.007537291967310011,
+        "inference_seconds": 0.10254958301084116,
+        "status": "completed"
+      },
+      {
+        "offset": 280,
+        "count": 8,
+        "preprocess_seconds": 0.007833832991309464,
+        "inference_seconds": 0.09764620801433921,
+        "status": "completed"
+      },
+      {
+        "offset": 288,
+        "count": 8,
+        "preprocess_seconds": 0.008085124951321632,
+        "inference_seconds": 0.09722129098372534,
+        "status": "completed"
+      },
+      {
+        "offset": 296,
+        "count": 8,
+        "preprocess_seconds": 0.007955375011079013,
+        "inference_seconds": 0.09980929200537503,
+        "status": "completed"
+      },
+      {
+        "offset": 304,
+        "count": 8,
+        "preprocess_seconds": 0.009336042043287307,
+        "inference_seconds": 0.09853333298815414,
+        "status": "completed"
+      },
+      {
+        "offset": 312,
+        "count": 3,
+        "preprocess_seconds": 0.0033575420384295285,
+        "inference_seconds": 0.045584707986563444,
+        "status": "completed"
+      }
+    ],
+    "api_calls": 0,
+    "api_charge_usd": 0,
+    "electricity_cost": "not measured",
+    "cache_used": false
+  },
+  "geometry_valid_frame_pairs": 1,
+  "unique_frame_pairs": 45,
+  "candidate_observations": 315,
+  "selected_images": 64,
+  "fixed_evaluation_pairs": 48,
+  "frozen_config_sha256": "11faeceb35835636edba1ad098c4558cfcc96b037b36ebd8eb184ea753a6b0e4",
+  "source_commit": "df281277215a1b55fd74dc8e43203e3954081976",
+  "limitations": [
+    "desk negative pairs are different-category easy negatives",
+    "same physical publisher instances may appear across sequences",
+    "published RGB frame timestamps unavailable",
+    "bounding boxes have not undergone new independent human review",
+    "automatic background homography is only approximate planar evidence, not 3-D truth"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "frames_with_proxy_reference": 132,
+  "all_frames": 136,
+  "proxy_reference_completeness": 0.9705882352941176,
+  "valid_responses_without_proxy_reference": 1,
+  "predicted_objects_without_proxy_reference": 1,
+  "predicted_objects_with_proxy_reference": 1,
+  "unmatched_predictions_on_scorable_proxy_frames": 1,
+  "confirmed_false_positive_rate": null,
+  "confirmed_truth_coverage": 0,
+  "interpretation": "未匹配代理框不是人工确认误报；无参考帧单列，不按空场景判断。",
+  "causal_and_retry_violations": []
+}

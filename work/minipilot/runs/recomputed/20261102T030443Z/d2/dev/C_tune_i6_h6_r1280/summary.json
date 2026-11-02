@@ -1,0 +1,121 @@
+{
+  "evidence_status": "exploratory_real_model_on_derived_visibility_labels",
+  "human_reviewed_event_metrics": "未测",
+  "risk_or_critical_category_recall": "未测",
+  "noninferiority": "未测",
+  "proxy_truth_review_status": "pending",
+  "deadline_seconds": [
+    2,
+    5,
+    10,
+    20
+  ],
+  "bbox_iou_threshold": 0.3,
+  "proxy_events": 174,
+  "proxy_recall_by_deadline": {
+    "2": 0.0,
+    "5": 0.0,
+    "10": 0.0,
+    "20": 0.0
+  },
+  "per_class": {
+    "bed": {
+      "n": 0,
+      "proxy_recall_by_deadline": {
+        "2": null,
+        "5": null,
+        "10": null,
+        "20": null
+      }
+    },
+    "cabinet": {
+      "n": 90,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    "chair": {
+      "n": 37,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    "shelf": {
+      "n": 17,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    "sofa": {
+      "n": 0,
+      "proxy_recall_by_deadline": {
+        "2": null,
+        "5": null,
+        "10": null,
+        "20": null
+      }
+    },
+    "table": {
+      "n": 30,
+      "proxy_recall_by_deadline": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    }
+  },
+  "proxy_unmatched_predictions": 3,
+  "proxy_unjudged_events": 172,
+  "proxy_late_after_visibility_end": 2,
+  "ticks": 136,
+  "logical_requests": 13,
+  "logical_attempts_including_replays": 13,
+  "new_real_http_requests": 9,
+  "new_real_http_attempts": 9,
+  "recorded_responses_replayed": 4,
+  "encoded_image_bytes_all_logical_attempts": 2014948,
+  "actual_http_request_body_bytes": 1887636,
+  "counterfactual_http_body_bytes_all_logical_attempts": 2689636,
+  "api_cost": 0,
+  "api_cost_savings_percent": null,
+  "cost_note": "本地模型无付费API；不含电费/设备折旧，不能由调用下降推断节省金额",
+  "request_status_counts": {
+    "ok": 7,
+    "invalid": 6,
+    "error": 0
+  },
+  "unfinished_at_video_end": 2,
+  "recorded_e2e_p50_s": 3.6814123330405017,
+  "recorded_e2e_p95_s": 6.774055474379557,
+  "new_actual_http_p50_s": 3.666023917030543,
+  "new_actual_http_p95_s": 7.786190183414144,
+  "scheduler_p50_ms": 8.636437472887337,
+  "scheduler_p95_ms": 10.850302278413437,
+  "reason_counts": {
+    "cooldown": 62,
+    "global_change": 13,
+    "inflight": 38,
+    "sharpness_or_motion_gate": 23
+  },
+  "proxy_stale_answer_ticks": 21,
+  "unknown_answer_ticks": 78,
+  "answer_coverage": 0.4264705882352941,
+  "ttl_withdrawal_ticks": 0,
+  "usable_completed_requests": 5,
+  "usable_completion_rate": 0.38461538461538464,
+  "usable_response_conditional_p50_s": 3.664655125059653,
+  "usable_response_conditional_p95_s": 3.9643425001995642,
+  "all_request_usable_result_p50_s": null,
+  "all_request_usable_result_p95_s": null,
+  "usable_latency_note": "Conditional quantiles include only valid quality-usable responses completed within video; all-request usable quantiles are conservatively null if any failed/invalid/unusable/unfinished request. recorded_e2e quantiles measure request termination, not usable answers."
+}

@@ -1,0 +1,37 @@
+{
+  "frozen_unix": 1793587871.1466591,
+  "code_sha256": "50997cf0311ae03296f8746b457f27d566f5237c99927b6a6b7336663c8e986d",
+  "task_categories": [
+    "chair",
+    "table",
+    "sofa",
+    "cabinet",
+    "bed",
+    "shelf"
+  ],
+  "sample_interval_s": 1.0,
+  "source_video_stream": "0:v:0",
+  "long_edge_px": 1280,
+  "orientation": "MOV Display Matrix applied; raw unrotated frames preserved",
+  "clock_rgb_cosine_min": 0.94,
+  "clock_offset_inlier_window_s": 0.2,
+  "clock_median_abs_residual_max_s": 0.075,
+  "per_frame_clock_residual_max_s": 0.075,
+  "pose_match_max_s": 0.006,
+  "min_measured_depth_pixels": 21,
+  "min_bbox_extent_lowres_px": 3,
+  "obb_tolerance_m": 0.01,
+  "event_gap_max_s": 1.1,
+  "first_sufficiently_judgable_s": null,
+  "independent_human_review": false,
+  "status": "Fixed on development processing before test proxy generation; no model predictions used",
+  "code_sha256_at_parameter_freeze": "06aa92c5ff1931889cd39e9eb9fb8f26c8ff4f607753dcfc8edf4ac57097f393",
+  "post_freeze_changes": [
+    {
+      "change": "Add reproducible per-frame reference-availability manifest export",
+      "changes_proxy_algorithm": false,
+      "changes_parameters": false,
+      "changes_generated_events": false
+    }
+  ]
+}

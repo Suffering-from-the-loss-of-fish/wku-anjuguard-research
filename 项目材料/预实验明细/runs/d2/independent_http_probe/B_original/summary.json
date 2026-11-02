@@ -1,0 +1,28 @@
+{
+  "policy": "B_original",
+  "config": {
+    "name": "B_original",
+    "kind": "original",
+    "interval_s": 6,
+    "hash_threshold": 6,
+    "resolution": 720,
+    "maximum_requests": 30
+  },
+  "frame_count": 20,
+  "requests": 2,
+  "usable_responses": 0,
+  "status_counts": {
+    "ok": 0,
+    "invalid": 2,
+    "error": 0
+  },
+  "actual_http_p50_s": 1.9803358335338999,
+  "actual_http_p95_s": 2.3095743955724175,
+  "usable_e2e_conditional_p50_s": null,
+  "usable_e2e_conditional_p95_s": null,
+  "actual_http_request_body_bytes": 174842,
+  "wall_clock_execution_s": 4.157586458954029,
+  "api_cost": 0,
+  "evidence_status": "independent_uncached_actual_http_technical_repeat_on_dev_prefix",
+  "warning": "Few requests; descriptive timing only. Not original-speed live replay, no quality or cost-savings inference."
+}

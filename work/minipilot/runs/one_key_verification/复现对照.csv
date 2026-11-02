@@ -1,0 +1,11 @@
+run,policy,logical_requests,new_real_http_requests,proxy_matched_20s,proxy_total,unfinished_at_video_end,jpeg_bytes,conditional_usable_p95_s,human_confirmed_quality
+initial,A_fixed,52,52,2,76,0,2519894,1.9272255463874897,unmeasured
+initial,B_original,52,42,3,76,0,2517439,1.6975170705467462,unmeasured
+initial,C_fix,37,14,5,76,0,1849043,1.709123175573768,unmeasured
+initial,C_tuned,37,0,5,76,0,1849043,1.7092829040426294,unmeasured
+initial,D_candidate,35,31,2,76,2,4143352,3.7585908531909804,unmeasured
+independent_rerun,A_fixed,52,52,2,76,0,2519894,1.9209634750091935,unmeasured
+independent_rerun,B_original,52,42,3,76,0,2517439,1.7094994626240805,unmeasured
+independent_rerun,C_fix,37,14,5,76,0,1849043,1.7194355625368187,unmeasured
+independent_rerun,C_tuned,45,26,2,76,0,2158140,1.7206401915842433,unmeasured
+independent_rerun,D_candidate,35,31,2,76,2,4143352,3.766652270307531,unmeasured

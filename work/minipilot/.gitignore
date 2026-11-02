@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/
+models/
+runs/
+logs/
+delivery/
+node_modules
+*.pyc
+*.png
+*.pdf
+

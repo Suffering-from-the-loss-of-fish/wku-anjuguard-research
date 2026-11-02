@@ -1,0 +1,21 @@
+{
+  "pages": 11,
+  "authored_paragraphs": 85,
+  "missing": [],
+  "normalization": "NFKC and whitespace only; running headers and page numbers removed",
+  "png_pages_identical_to_inspected_previous_render": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "changed_png_pages_to_inspect": [
+    5,
+    6
+  ]
+}

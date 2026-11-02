@@ -1,0 +1,19 @@
+test_algorithm_files_do_not_contain_identity_answers (test_d1_methods.AssociationTests.test_algorithm_files_do_not_contain_identity_answers) ... ok
+test_empty_and_equal_threshold (test_d1_methods.AssociationTests.test_empty_and_equal_threshold) ... ok
+test_every_result_and_configuration_exists (test_d1_methods.AssociationTests.test_every_result_and_configuration_exists) ... ok
+test_geometry_blank_is_unavailable (test_d1_methods.AssociationTests.test_geometry_blank_is_unavailable) ... ok
+test_geometry_known_translation (test_d1_methods.AssociationTests.test_geometry_known_translation) ... ok
+test_iou (test_d1_methods.AssociationTests.test_iou) ... ok
+test_missing_feature_is_failed_not_negative (test_d1_methods.AssociationTests.test_missing_feature_is_failed_not_negative) ... ok
+test_one_to_one_global_assignment (test_d1_methods.AssociationTests.test_one_to_one_global_assignment) ... ok
+test_original_documented_behaviors (test_d1_methods.AssociationTests.test_original_documented_behaviors) ... ok
+test_pending_boundary_and_conflict_margin (test_d1_methods.AssociationTests.test_pending_boundary_and_conflict_margin) ... ok
+test_prediction_ignores_truth_fields (test_d1_methods.AssociationTests.test_prediction_ignores_truth_fields) ... ok
+test_quality_blank_and_good (test_d1_methods.AssociationTests.test_quality_blank_and_good) ... ok
+test_summary_preserves_pending_and_failures (test_d1_methods.AssociationTests.test_summary_preserves_pending_and_failures) ... ok
+test_unmatched_dummies (test_d1_methods.AssociationTests.test_unmatched_dummies) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.100s
+
+OK

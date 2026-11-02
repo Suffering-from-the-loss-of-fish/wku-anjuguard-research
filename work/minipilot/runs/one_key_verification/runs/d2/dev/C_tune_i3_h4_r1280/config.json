@@ -1,0 +1,8 @@
+{
+  "name": "C_tune_i3_h4_r1280",
+  "kind": "fixed_gate",
+  "interval_s": 3,
+  "hash_threshold": 4,
+  "resolution": 1280,
+  "maximum_requests": 30
+}

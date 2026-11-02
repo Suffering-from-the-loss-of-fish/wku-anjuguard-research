@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "errors": [],
+  "raw_download_bytes": 4809781100,
+  "video_count": 6,
+  "visit_groups": 3,
+  "independent_household_count": "unverified",
+  "frame_count": 483,
+  "frames_by_split": {
+    "dev": 136,
+    "test": 347
+  },
+  "frames_by_video": {
+    "40777060": 67,
+    "40777063": 69,
+    "41069042": 98,
+    "41069043": 99,
+    "41159529": 61,
+    "41159530": 89
+  },
+  "proxy_events": 250,
+  "proxy_events_by_split": {
+    "dev": 174,
+    "test": 76
+  },
+  "proxy_observations": 983,
+  "proxy_reference_available_frames": 469,
+  "proxy_reference_unavailable_frames": 14,
+  "independently_human_reviewed_events": 0,
+  "real_risk_event_recall": "unmeasured",
+  "total_recorded_duration_s": 481.40029799999996,
+  "bbox_format": "normalized_xyxy_in_upright_frame",
+  "confirmed_event_review_csv_rows": 250,
+  "unit_tests_passed": 6,
+  "source_protocol_hash_matches": true,
+  "proxy_regeneration_sha256": "9c24b7528d162004c16e94ecc43402084196de4390a9af91dee435d3476e3abe",
+  "proxy_regeneration_unchanged": true
+}

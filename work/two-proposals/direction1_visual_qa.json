@@ -1,0 +1,32 @@
+{
+  "document": "/Users/wangkai/Desktop/温肯科研/方向一申请书.docx",
+  "render_directory": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/two-proposals/direction1-render-v1",
+  "pages": 11,
+  "all_pages_visually_inspected": true,
+  "image_size": [
+    1414,
+    2000
+  ],
+  "inspection_mode": "Each full page PNG opened with original detail; every page reviewed.",
+  "visual_result": "PASS",
+  "visual_findings": {
+    "missing_glyphs": false,
+    "clipped_text": false,
+    "overlap": false,
+    "orphaned_headings": false,
+    "blank_pages": false,
+    "header_and_page_numbers": "School crest/header and sequential page numbers 1-11 retained and readable."
+  },
+  "notes": [
+    "Long body paragraphs continue from page 5 to 6 and page 6 to 7 with at least two continuation lines; no lost text.",
+    "Reference list continues from page 2 to 3; each citation itself remains together.",
+    "Part II starts on page 10."
+  ],
+  "authored_paragraphs": 85,
+  "matched_paragraphs": 85,
+  "missing_paragraph_indices": [],
+  "text_comparison": "NFKC and whitespace normalization; repeated school header and page-number-only footer removed before joining page text. Punctuation retained.",
+  "pdf_sha256": "16422e48dab952c39ceda44bf922fa0aeac9df1af5559d4b1ed1b540cb037efd",
+  "content_sha256": "fc8e96e6e85b141713a1a26c206ed9443deaa4478b1645a99aa81995cde1a7ca",
+  "scope": "Document quality only; no experiments run and no proposal content changed."
+}

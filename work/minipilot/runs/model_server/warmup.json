@@ -1,0 +1,29 @@
+{
+  "request_id": "warmup_uw_dev_001",
+  "image_path": "/Users/wangkai/Documents/ChatGPT/温肯科研/work/minipilot/runs/model_server/received_images/b52d3bd6df1b2158c6d5f34136dc9e36821b73c492dfb89f318ab2b12d6765c7.jpg",
+  "model_id": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+  "model_revision": "46d4cf06a06ffc1a766c214174f9cbed2f45bcab",
+  "prompt_sha256": "804c5dbe1334a2b9439456a921e0304bcc3c44153fc4f72fb91f032289ca17c5",
+  "started_utc": "2026-11-02T02:43:12.403642+00:00",
+  "experiment_kind": "real_local_model_http",
+  "api_cost": 0,
+  "image_sha256": "b52d3bd6df1b2158c6d5f34136dc9e36821b73c492dfb89f318ab2b12d6765c7",
+  "image_bytes": 46178,
+  "cache_hit": false,
+  "raw_text": "```json\n[\n\t{\"quality_usable\":true,\"objects\":[{\"category\":\"chair\",\"bbox_2d\":[348,309,581,475]}]}\n]\n```",
+  "usage": {
+    "prompt_tokens": 641,
+    "generation_tokens": 43,
+    "total_tokens": 684,
+    "cached_tokens": 0
+  },
+  "finish_reason": "stop",
+  "peak_memory_gb": 3.824429844,
+  "status": "invalid",
+  "result": null,
+  "error": "quality_usable must be a boolean",
+  "latency_ms": 3656.9020829629153,
+  "finished_utc": "2026-11-02T02:43:16.060525+00:00",
+  "http_elapsed_s": 3.6767802499816753,
+  "request_body_bytes": 61654
+}

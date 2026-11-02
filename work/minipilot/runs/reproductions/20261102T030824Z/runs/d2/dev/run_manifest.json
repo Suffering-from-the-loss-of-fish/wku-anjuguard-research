@@ -1,0 +1,30 @@
+{
+  "split": "dev",
+  "code_sha256": "65371a72578b6aaecb9b57dd44d3184b51358f2df2b96720da66bf574225ce35",
+  "input_frames_sha256": "6d3c44645eae363e7595de11e5df5f1e1d3a04fe4aad56f533bed38add1fb2a6",
+  "input_events_sha256": "24f7c44d26f981998f00429171aead780b09de2cdc55ec1489e5d3fc93fe7821",
+  "model_contract": {
+    "model_id": "mlx-community/Qwen2.5-VL-3B-Instruct-4bit",
+    "model_revision": "46d4cf06a06ffc1a766c214174f9cbed2f45bcab",
+    "prompt": "Inspect only the single supplied image. Detect visible indoor furniture from exactly these categories: chair, table, sofa, cabinet, bed, shelf. A desk is table; a couch is sofa; a bookcase is shelf. Do not infer hidden objects or use prior images. Return all visibly identifiable instances of those categories. For a partly occluded object, bound only its visible image extent. If the picture is too dark, blurred or otherwise unusable for judging furniture, set quality_usable to false. Return ONLY a JSON object, with no markdown or explanation, in this format:\n{\"quality_usable\":true,\"objects\":[{\"category\":\"chair\",\"bbox\":[100,200,300,400]}]}\nEach bbox is [left,top,right,bottom] in PIXELS of the supplied image, with origin at the image top-left. Use left<right and top<bottom. The exact supplied image width and height follow. If no listed furniture is visibly identifiable, return an empty objects array. Do not report risk, safety, object identities or probabilities.",
+    "prompt_sha256": "a744c245a0f907376287ebbc3e2663f4a86d6442823c2b4810ee731ef4a658a0",
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "cross_request_cache": false,
+    "structured_decoding": "JSON schema; per-request fresh grammar; no truth input",
+    "bbox_units_response": "normalized_0_1",
+    "decoding_version": "json_schema_unbounded_integers_then_strict_pixel_validation_v2",
+    "server_code_sha256": "43c54e0d8dff8bca2242918db44996d218389c121af62268508a6305fa99ea8b"
+  },
+  "timeout_s": 60.0,
+  "frames": 136,
+  "videos": [
+    "40777060",
+    "40777063"
+  ],
+  "truth_kind": "derived_visibility",
+  "human_review_status": "pending",
+  "endpoint": "http://127.0.0.1:63304/analyze",
+  "started_unix_s": 1793589319.8425112,
+  "max_frames_debug_limit": null
+}

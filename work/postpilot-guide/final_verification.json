@@ -1,0 +1,17 @@
+{
+  "pages": 2,
+  "body_blocks": 32,
+  "table_cell_blocks": 12,
+  "missing_blocks": [],
+  "text_validation": "NFKC and whitespace normalization; PDF body and table cells checked separately",
+  "visually_reviewed_pages": [
+    1,
+    2
+  ],
+  "existing_docs_and_workbooks_unchanged": 15,
+  "title_borders_removed": true,
+  "delivered_path": "/Users/wangkai/Desktop/温肯科研/方向选择与下一步.docx",
+  "sha256": "6c9c97e77cb854c51cb54b2d4c29de2be107c0af307596e5d6d718455b7101f9",
+  "bytes": 41498,
+  "scope": "Document creation and QA only; no experiments rerun."
+}

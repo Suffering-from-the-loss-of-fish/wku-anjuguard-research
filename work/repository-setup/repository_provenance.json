@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research",
+  "visibility": "private",
+  "local_date": "2026-11-01",
+  "timezone": "America/New_York",
+  "source_repositories": [
+    {
+      "path": "AnjuGuard",
+      "commit": "df281277215a1b55fd74dc8e43203e3954081976",
+      "branch": "main",
+      "origin": "https://github.com/banshanbans/AnjuGuard.git",
+      "worktree_clean": true
+    },
+    {
+      "path": "work/minipilot",
+      "commit": "b0abccccc5bc2738626db0243fefe39e7109baad",
+      "branch": "codex/minipilot",
+      "origin": null,
+      "worktree_clean": true
+    }
+  ],
+  "layout": "Ordinary file snapshots; no submodules. Original source Git metadata remains local and unchanged.",
+  "release_asset": {
+    "name": "预实验代码.zip",
+    "bytes": 160685514,
+    "sha256": "58d14d6bd9e941350a22381bdb7af906bf04b1b67902642ec35494e46fbbce72"
+  },
+  "verification_scope": "Packaging, links, and Git transfer only; no new inference, device tests, or human labeling."
+}

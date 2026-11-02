@@ -1,0 +1,54 @@
+{
+  "dataset": "ARKitScenes",
+  "source_kind": "public_real_indoor_recordings",
+  "repository": "https://github.com/apple-aiml-research/ARKitScenes",
+  "license_url": "https://github.com/apple-aiml-research/ARKitScenes/blob/main/LICENSE",
+  "paper_url": "https://arxiv.org/html/2111.08897v1",
+  "download_manifest": "runs/d2_data/downloads.jsonl",
+  "selection": [
+    {
+      "official_split": "Training",
+      "visit_id": "369709",
+      "video_id": "40777060",
+      "split": "dev"
+    },
+    {
+      "official_split": "Training",
+      "visit_id": "369709",
+      "video_id": "40777063",
+      "split": "dev"
+    },
+    {
+      "official_split": "Validation",
+      "visit_id": "381649",
+      "video_id": "41069042",
+      "split": "test"
+    },
+    {
+      "official_split": "Validation",
+      "visit_id": "381649",
+      "video_id": "41069043",
+      "split": "test"
+    },
+    {
+      "official_split": "Validation",
+      "visit_id": "381875",
+      "video_id": "41159529",
+      "split": "test"
+    },
+    {
+      "official_split": "Validation",
+      "visit_id": "381875",
+      "video_id": "41159530",
+      "split": "test"
+    }
+  ],
+  "split_rule": "Official Training is dev; official Validation is held-out test. Repeated scans retain visit group. No household identity beyond official split is asserted.",
+  "limitations": [
+    "Static furniture, not cable/box risk events",
+    "Two videos are repeated scans, not independent layouts",
+    "Derived event visibility requires independent human review",
+    "Source metadata has no explicit household ID",
+    "Evaluation references must never enter scheduler state"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/New_York",
+  "status": "PASS",
+  "output": "/Users/wangkai/Desktop/温肯科研/科研申请书.docx",
+  "bytes": 147441,
+  "sha256": "ace3b786758f953600f35346f83bb3665f81f1e231a0a59454f188c68ba52bee",
+  "pages": 11,
+  "filled_sections": 7,
+  "reference_entries": 7,
+  "authored_paragraphs": 85,
+  "all_paragraphs_match_pdf_after_nfkc_and_whitespace_normalization": true,
+  "all_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_evidence": "delivery-final/page-1.png through page-11.png; pages 1-4 and 7-11 are byte-identical to already inspected delivery-qa images; updated pages 5-6 were separately inspected",
+  "source_template_unchanged": true,
+  "modified_package_parts": [
+    "word/document.xml"
+  ],
+  "other_22_parts_byte_identical": true,
+  "original_question_pairs_retained": true,
+  "unfilled_placeholder_residue": false,
+  "research_status": "Proposal and document QA only. No new model, device or collection experiments. Advisor and resource conditions remain unconfirmed.",
+  "first_two_weeks": "Fixed candidates and object identity association; later add issue relations and end-to-end risk reporting."
+}

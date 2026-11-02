@@ -1,0 +1,49 @@
+{
+  "cases": [
+    "valid scene accepted",
+    "reviewed same-object pair eligible",
+    "false split classified",
+    "false merge classified",
+    "two errors out of two decisions = 100%",
+    "missing method remains visible",
+    "missing method rate blank",
+    "abstention lowers auto-decision ratio",
+    "abstention not counted as correct",
+    "duplicate results excluded",
+    "duplicate results cannot create completion",
+    "annotation disagreement excluded",
+    "invisible target excluded",
+    "same location split across development and test rejected",
+    "empty template remains awaiting data",
+    "empty rates remain blank"
+  ],
+  "files": [
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/说明上.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/说明下.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/汇总.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/场景.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/照片.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/目标左.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/目标右.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/配对.png",
+    "/Users/wangkai/Documents/ChatGPT/温肯科研/work/direction1-starter/workbook-qa/方法.png"
+  ],
+  "sheets": [
+    "填写说明",
+    "汇总",
+    "场景登记",
+    "照片登记",
+    "目标标注",
+    "配对真值",
+    "方法结果"
+  ],
+  "capacity": {
+    "场景登记": 20,
+    "照片登记": 160,
+    "目标标注": 400,
+    "配对真值": 120,
+    "方法结果": 360
+  },
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "output": "/Users/wangkai/Desktop/温肯科研/08_采集标注表.xlsx"
+}

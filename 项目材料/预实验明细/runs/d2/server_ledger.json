@@ -1,0 +1,34 @@
+{
+  "server_rows": 230,
+  "groups": {
+    "dev": {
+      "fresh_real_calls": 64,
+      "http_attempts": 64,
+      "matched_server_records": 64,
+      "missing_server_request_ids": [],
+      "status_mismatch_request_ids": [],
+      "paid_api_cost": 0,
+      "timeout_or_transport_errors": 0
+    },
+    "test": {
+      "fresh_real_calls": 139,
+      "http_attempts": 139,
+      "matched_server_records": 139,
+      "missing_server_request_ids": [],
+      "status_mismatch_request_ids": [],
+      "paid_api_cost": 0,
+      "timeout_or_transport_errors": 0
+    },
+    "independent_http_probe": {
+      "fresh_real_calls": 11,
+      "http_attempts": 11,
+      "matched_server_records": 11,
+      "missing_server_request_ids": [],
+      "status_mismatch_request_ids": [],
+      "paid_api_cost": 0,
+      "timeout_or_transport_errors": 0
+    }
+  },
+  "total_missing_server_records": 0,
+  "warning": "Paid API cost excludes electricity and equipment; no money-savings estimate. Unrelated warmups and old technical probes are outside these groups."
+}

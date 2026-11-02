@@ -1,0 +1,227 @@
+[
+  {
+    "video_id": "40777060",
+    "status": "proxy_draft",
+    "events": 84,
+    "observations": 305,
+    "frames": 67,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 98.147744,
+      "inlier_count": 66,
+      "frame_count": 67,
+      "median_abs_residual_s": 0.00029200000000884074,
+      "median_rgb_similarity": 0.9998422676685352,
+      "valid_matches": 66,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "40777060_000001",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "dishwasher",
+      "fireplace",
+      "oven",
+      "refrigerator",
+      "sink",
+      "stool",
+      "stove"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  },
+  {
+    "video_id": "40777063",
+    "status": "proxy_draft",
+    "events": 90,
+    "observations": 289,
+    "frames": 69,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 166.45309500000002,
+      "inlier_count": 66,
+      "frame_count": 69,
+      "median_abs_residual_s": 0.0008509999999830598,
+      "median_rgb_similarity": 0.9995946682557801,
+      "valid_matches": 66,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "40777063_000001",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "40777063_000046",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "40777063_000057",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "dishwasher",
+      "fireplace",
+      "oven",
+      "refrigerator",
+      "sink",
+      "stool",
+      "stove"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  },
+  {
+    "video_id": "41069042",
+    "status": "proxy_draft",
+    "events": 23,
+    "observations": 151,
+    "frames": 98,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 3042.822405,
+      "inlier_count": 96,
+      "frame_count": 98,
+      "median_abs_residual_s": 0.0003155000001697772,
+      "median_rgb_similarity": 0.9999137907094834,
+      "valid_matches": 96,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "41069042_000001",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41069042_000002",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "tv_monitor"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  },
+  {
+    "video_id": "41069043",
+    "status": "proxy_draft",
+    "events": 27,
+    "observations": 145,
+    "frames": 99,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 2799.023256,
+      "inlier_count": 98,
+      "frame_count": 99,
+      "median_abs_residual_s": 0.0002559999998084095,
+      "median_rgb_similarity": 0.9963458066824707,
+      "valid_matches": 98,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "41069043_000001",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "tv_monitor"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  },
+  {
+    "video_id": "41159529",
+    "status": "proxy_draft",
+    "events": 11,
+    "observations": 31,
+    "frames": 61,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 39091.202832999996,
+      "inlier_count": 57,
+      "frame_count": 61,
+      "median_abs_residual_s": 0.0002500000045984052,
+      "median_rgb_similarity": 0.9897094767683464,
+      "valid_matches": 57,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "41159529_000001",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41159529_000002",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41159529_000014",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41159529_000023",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "oven"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  },
+  {
+    "video_id": "41159530",
+    "status": "proxy_draft",
+    "events": 15,
+    "observations": 62,
+    "frames": 89,
+    "reviewed_events": 0,
+    "clock_alignment": {
+      "status": "aligned",
+      "method": "median RGB matched timestamp offset with robust inlier gate",
+      "offset_s": 39159.807167,
+      "inlier_count": 86,
+      "frame_count": 89,
+      "median_abs_residual_s": 0.0005830000009154901,
+      "median_rgb_similarity": 0.9997593740233791,
+      "valid_matches": 86,
+      "independently_reviewed": false
+    },
+    "skipped_frames": [
+      {
+        "frame_id": "41159530_000001",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41159530_000083",
+        "reason": "RGB/clock alignment gate failed"
+      },
+      {
+        "frame_id": "41159530_000086",
+        "reason": "RGB/clock alignment gate failed"
+      }
+    ],
+    "excluded_annotation_categories": [
+      "oven",
+      "sink"
+    ],
+    "geometry_source": "Official obbAligned meters and world-to-camera Rodrigues extrinsics; observed depth divided by 1000",
+    "warning": "These are derived furniture visibility proxies, not human risk/event truth or formal earliest-detectable times"
+  }
+]
