@@ -1,0 +1,22 @@
+{
+  "snapshot_commit": "3ac11575471b892ca1a66bda8de5a053bd0d86f0",
+  "fresh_remote_clone": "passed",
+  "manifest_content_hashes_checked": 6072,
+  "hash_mismatches": [],
+  "private": true,
+  "tracked_files": 6073,
+  "material_links_present": 791,
+  "material_video_links_requiring_download": 281,
+  "unique_video_targets": 6,
+  "unexpected_missing_links": [],
+  "release_assets": [
+    {
+      "name": "minipilot-code.zip",
+      "size": 160685514,
+      "digest": "sha256:58d14d6bd9e941350a22381bdb7af906bf04b1b67902642ec35494e46fbbce72",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research/releases/download/initial-2026-11-01/minipilot-code.zip"
+    }
+  ],
+  "scope": "Repository content/links/archive transfer only. No new research experiment."
+}

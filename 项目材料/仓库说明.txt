@@ -1,0 +1,22 @@
+温肯科研 GitHub 仓库
+
+仓库：https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research
+可见性：私有
+原始代码ZIP：https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research/releases/tag/initial-2026-11-01
+附件名：minipilot-code.zip（与桌面「预实验代码.zip」逐字节一致）
+
+给同学使用：先在仓库中邀请他的 GitHub 用户名，待他接受邀请后再拉取。当前没有邀请任何人。
+
+首次下载：
+git clone https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research.git
+
+已有仓库更新：进入仓库目录，运行 git pull。
+
+内容入口：README.md；项目材料/；AnjuGuard/；work/minipilot/。
+源码、方案、申请书、实验记录与抽取图片已上传；缓存、运行环境、可下载的大模型与原视频不进入Git。预实验原始ZIP在Release附件。下载与复现入口见 work/minipilot/README.md。
+
+仓库副本的复核表与失败案例已改为相对链接，保留整个目录结构；六段原视频需下载后查看。原桌面Word/Excel不改写。
+
+后续本机有新文件时需要提交并推送，GitHub不会自动实时同步。原作者从工作区根目录运行 python3 scripts/stage_repository.py --stage，再检查、git commit 和 git push。桌面材料需要先同步到工作区「项目材料」并维护相对链接。
+
+本次做了远端重新克隆和逐文件SHA256核对，以及Release附件SHA256核对；没有重跑科研实验。

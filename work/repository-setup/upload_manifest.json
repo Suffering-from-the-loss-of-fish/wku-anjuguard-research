@@ -2,15 +2,15 @@
   "schema": 1,
   "scope": "Current project files; original downloads/runtime excluded; ZIP published separately as a Release asset.",
   "manifest_self_excluded_from_hashes": true,
-  "included_files": 6072,
-  "included_bytes": 764411123,
+  "included_files": 6075,
+  "included_bytes": 764416514,
   "excluded_counts": {
     "local runtime/cache/git metadata": 10,
     "local symbolic link": 6,
     "downloadable original dataset/cache": 4,
     "release asset (over regular Git file limit)": 1,
     "downloadable fixed-revision model weights": 1,
-    "local coordination state": 1
+    "local coordination state": 2
   },
   "included": [
     {
@@ -32648,6 +32648,18 @@
       "mode": "100644"
     },
     {
+      "path": "work/repository-setup/release_notes.txt",
+      "bytes": 697,
+      "sha256": "a72e62413ed2f53f19a5b05c7960d9ee0c052d9c06f2afd4e9dc3106c53d05f1",
+      "mode": "100644"
+    },
+    {
+      "path": "work/repository-setup/remote_verification.json",
+      "bytes": 830,
+      "sha256": "63679cb831214a4fbf0fc828c3c42f29ab79e4ce613186de99d952a20f37ad29",
+      "mode": "100644"
+    },
+    {
       "path": "work/repository-setup/repository_provenance.json",
       "bytes": 1024,
       "sha256": "7f4c6b7432fd1bab68b16a83600021a75c4d616332aa043b5392471ede34f255",
@@ -34053,8 +34065,8 @@
     },
     {
       "path": "项目材料/05_项目总览.txt",
-      "bytes": 25699,
-      "sha256": "97dbe973136823202a6f83f1ce944b946520ebec0d4a34c61eba0bfe15f03b93",
+      "bytes": 28052,
+      "sha256": "002ecca6ab3de3ad3a064ecaab75cb1ddba477f677a4092a416d7b4e8d46cfbb",
       "mode": "100644"
     },
     {
@@ -34073,6 +34085,12 @@
       "path": "项目材料/08_采集标注表.xlsx",
       "bytes": 205377,
       "sha256": "b0191e1a7722292041fa96b85971b8a05a64231faa1d435c49598a52f90a8f23",
+      "mode": "100644"
+    },
+    {
+      "path": "项目材料/仓库说明.txt",
+      "bytes": 1511,
+      "sha256": "23a4949abb72cb86d1ae7f21001eb609bc7883953ef07fec0b8bd60a60ebd163",
       "mode": "100644"
     },
     {
@@ -36551,6 +36569,11 @@
       "path": "work/minipilot/tests/__pycache__/",
       "bytes": null,
       "reason": "local runtime/cache/git metadata"
+    },
+    {
+      "path": "work/repository-setup/private/",
+      "bytes": null,
+      "reason": "local coordination state"
     },
     {
       "path": "work/research-package/fontcache/",
