@@ -27,7 +27,7 @@ git clone https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-resea
 cd wku-anjuguard-research
 ```
 
-仓库为私有。协作者需要先被仓库所有者邀请并接受邀请，再使用自己的 GitHub 账号拉取。未自动邀请任何人。源码以普通文件保存，不需要 `--recurse-submodules`。
+仓库已公开，任何人都可以查看、下载或克隆，无需邀请即可阅读。向本仓库推送修改仍需仓库所有者授权。源码以普通文件保存，不需要 `--recurse-submodules`。
 
 Word/Excel 建议下载后打开；HTML 请在本机打开。表格中的相对链接以所在文件夹为基准，移动单个文件可能使链接失效，应保留整个仓库结构。原始视频链接在运行下载步骤后才可用。原Word/Excel交付未改写，仓库副本只修复链接，不改研究数值或格式。
 

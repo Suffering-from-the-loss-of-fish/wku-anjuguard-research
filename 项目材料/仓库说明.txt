@@ -1,11 +1,11 @@
 温肯科研 GitHub 仓库
 
 仓库：https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research
-可见性：私有
+可见性：公开
 原始代码ZIP：https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research/releases/tag/initial-2026-11-01
 附件名：minipilot-code.zip（与桌面「预实验代码.zip」逐字节一致）
 
-给同学使用：先在仓库中邀请他的 GitHub 用户名，待他接受邀请后再拉取。当前没有邀请任何人。
+给同学使用：任何人都可以直接查看、下载或克隆，无需邀请即可阅读。向本仓库推送修改仍需仓库所有者授权。
 
 首次下载：
 git clone https://github.com/Suffering-from-the-loss-of-fish/wku-anjuguard-research.git

@@ -1,0 +1,39 @@
+{
+  "visibility": "public",
+  "authenticated_requests": false,
+  "anonymous_tree_complete": true,
+  "anonymous_file_count": 6076,
+  "snapshot_commit": "1ca130c523aa09202b44bc1c28aec598aca005d3",
+  "tree_matches_local_committed_snapshot": true,
+  "anonymous_git_main_matches": true,
+  "anonymous_samples": [
+    {
+      "path": "AnjuGuard/README.md",
+      "status": 200,
+      "sha256_matches": true
+    },
+    {
+      "path": "项目材料/方向一申请书.docx",
+      "status": 200,
+      "sha256_matches": true
+    },
+    {
+      "path": "项目材料/补充复核.xlsx",
+      "status": 200,
+      "sha256_matches": true
+    },
+    {
+      "path": "work/minipilot/requirements.lock",
+      "status": 200,
+      "sha256_matches": true
+    }
+  ],
+  "release_asset": {
+    "name": "minipilot-code.zip",
+    "status": 200,
+    "bytes": 160685514,
+    "content_length": "160685514",
+    "digest": "sha256:58d14d6bd9e941350a22381bdb7af906bf04b1b67902642ec35494e46fbbce72"
+  },
+  "scope": "Public access checks only; original downloads, weights and local runtime remain excluded as documented."
+}
